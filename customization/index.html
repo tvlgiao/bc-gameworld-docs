@@ -8,7 +8,7 @@
   
   
   
-  <title>Customization - BigCommerce Theme SarahMarket - User Guide</title>
+  <title>Customization - BigCommerce Theme Gameworld - User Guide</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -46,7 +46,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> BigCommerce Theme SarahMarket - User Guide</a>
+        <a href=".." class="icon icon-home"> BigCommerce Theme Gameworld - User Guide</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -92,31 +92,17 @@
                 
                     <li><a class="toctree-l4" href="#main-slideshow-carousel">Main Slideshow / Carousel</a></li>
                 
-                    <li><a class="toctree-l4" href="#2-banners-beside-the-main-slideshow">2 Banners beside the main slideshow</a></li>
-                
-                    <li><a class="toctree-l4" href="#new-featured-popular-products">New / Featured / Popular Products</a></li>
-                
-                    <li><a class="toctree-l4" href="#new-featured-popular-products-tabs">New / Featured / Popular Products Tabs</a></li>
-                
-                    <li><a class="toctree-l4" href="#products-by-category">Products by Category</a></li>
-                
-                    <li><a class="toctree-l4" href="#products-by-category-advanced-style">Products by Category - Advanced Style</a></li>
-                
                     <li><a class="toctree-l4" href="#products-by-categories-tabs">Products by Categories Tabs</a></li>
                 
-                    <li><a class="toctree-l4" href="#categories-list">Categories List</a></li>
+                    <li><a class="toctree-l4" href="#products-by-categories-columns">Products by Categories Columns</a></li>
+                
+                    <li><a class="toctree-l4" href="#new-featured-popular-products">New / Featured / Popular Products</a></li>
                 
                     <li><a class="toctree-l4" href="#image-banners">Image Banners</a></li>
                 
                     <li><a class="toctree-l4" href="#image-carousel">Image Carousel</a></li>
                 
-                    <li><a class="toctree-l4" href="#recent-blog-posts">Recent Blog Posts</a></li>
-                
-                    <li><a class="toctree-l4" href="#instagram-photos">Instagram Photos</a></li>
-                
-                    <li><a class="toctree-l4" href="#footer-top-info-text">Footer - Top info text</a></li>
-                
-                    <li><a class="toctree-l4" href="#footer-newsletter">Footer - Newsletter</a></li>
+                    <li><a class="toctree-l4" href="#footer-recent-blog-posts">Footer - Recent Blog Posts</a></li>
                 
                     <li><a class="toctree-l4" href="#footer-custom-links">Footer - Custom Links</a></li>
                 
@@ -125,6 +111,8 @@
                     <li><a class="toctree-l4" href="#footer-category-links">Footer - Category Links</a></li>
                 
                     <li><a class="toctree-l4" href="#footer-contact-info">Footer - Contact Info</a></li>
+                
+                    <li><a class="toctree-l4" href="#footer-newsletter">Footer - Newsletter</a></li>
                 
                     <li><a class="toctree-l4" href="#footer-location">Footer - Location</a></li>
                 
@@ -168,7 +156,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">BigCommerce Theme SarahMarket - User Guide</a>
+        <a href="..">BigCommerce Theme Gameworld - User Guide</a>
       </nav>
 
       
@@ -208,6 +196,7 @@
 - Logo at right</p>
 <p><img alt="Header Logo at left" src="../img/home1-header-left.png" /></p>
 <p><img alt="Header Logo at right" src="../img/home1-header-right.png" /></p>
+<p><img alt="Header Logo at center" src="../img/home1-header-center.png" /></p>
 <p>To configure, open the <strong>Theme Editor</strong>, scroll down to section <strong>Logo</strong>, click to expand the logo options. Choose a certain option of <strong>Logo position</strong>, then click <strong>Refresh</strong> button appear after.</p>
 <p><img alt="Change logo position" src="../img/change-logo-position.png" /></p>
 <h3 id="edit-top-header-text">Edit top header text<a class="headerlink" href="#edit-top-header-text" title="Permanent link">&para;</a></h3>
@@ -230,29 +219,73 @@
 <p><img alt="Theme editor carousel" src="../img/theme-editor-carousel.png" /></p>
 <h3 id="hide-the-slideshow">Hide the slideshow<a class="headerlink" href="#hide-the-slideshow" title="Permanent link">&para;</a></h3>
 <p>To hide the slideshow on homepage, uncheck on the checkbox <strong>Show Carousel</strong> in section <strong>Carousel</strong> of the Theme Editor.</p>
-<h2 id="2-banners-beside-the-main-slideshow">2 Banners beside the main slideshow<a class="headerlink" href="#2-banners-beside-the-main-slideshow" title="Permanent link">&para;</a></h2>
-<p><img alt="Home 1 slideshow banners" src="../img/home1-slideshow-banners.png" /></p>
-<p>To edit 2 banners, edit the language file <code>en.json</code>, find key <code>emthemesmodez</code> &gt; <code>slideshow</code>:</p>
-<p><img alt="Edit language slideshow banners" src="../img/edit-language-slideshow-banners.png" /></p>
+<h3 id="edit-custom-links">Edit custom links<a class="headerlink" href="#edit-custom-links" title="Permanent link">&para;</a></h3>
+<p><img alt="Custom links on the main carousel" src="../img/home1-main-carousel-links.jpg" /></p>
+<p>For editing these links, edit the language file <code>en.json</code>, find keys <code>emthemesmodez</code> &gt; <code>home_carousel_links</code>:</p>
+<p><img alt="Edit language for main slideshow links" src="../img/edit-language-main-slideshow-links.png" /></p>
 <ul>
-<li><code>title</code>: is banner alt text.</li>
-<li><code>image</code>: is image URL.</li>
-<li><code>url</code>: is image link.</li>
+<li><code>heading*</code>: is the heading text. Live this value a single space character if you want to hide this link.</li>
+<li><code>text*</code>: is the sub-heading text.</li>
+<li><code>url*</code>: is the link URL.</li>
 </ul>
-<p>You can remove 2 banners completely by editing template file <code>templates/components/emthemes-modez/sections/section1-sarahmarket1.html</code> delete the code figured as below:</p>
-<p><img alt="Source code of the slideshow banners" src="../img/html-slideshow-banners.png" /></p>
+<h3 id="products-display-on-the-main-slideshow">Products display on the main slideshow<a class="headerlink" href="#products-display-on-the-main-slideshow" title="Permanent link">&para;</a></h3>
+<p><img alt="Main carousel featured products" src="../img/home1-main-carousel-products.jpg" /></p>
+<p>By default, products displaying on the main carousel are <strong>featured products</strong>. It is easy to change to <strong>new products</strong> or <strong>bestselling products</strong> or even hide it completely.</p>
+<p>Edit the template file <code>templates/components/carousel.html</code> the file editor:</p>
+<p><img alt="Edit file carousel.html" src="../img/edit-file-carousel.png" /></p>
+<p>To display <strong>new products</strong>, change the text <code>products.featured</code> to <code>products.new</code>.</p>
+<p>To display <strong>bestselling products</strong>, change the text <code>products.featured</code> to <code>products.top</code>.</p>
+<p>If you don't want to display these products. Just delete the code:</p>
+<pre><code>&lt;div class=&quot;emthemesModez-heroCarousel-product&quot;&gt;
+    {{#each ../products.featured}}
+        {{#if @index '==' @../index}}
+            {{&gt;components/products/list-item 
+                show_rating=../../../settings.show_product_rating
+                theme_settings=../../../theme_settings 
+                customer=../../../customer}}
+        {{/if}}
+    {{/each}}
+&lt;/div&gt;
+</code></pre>
+
+<h2 id="products-by-categories-tabs">Products by Categories Tabs<a class="headerlink" href="#products-by-categories-tabs" title="Permanent link">&para;</a></h2>
+<p><img alt="Products by Categories with subcategories tabs" src="../img/home1-products-by-category-sub-tabs.jpg" /></p>
+<p>This section lets you show products by category, Each tab is a sub-category, tab content contains products in corresponding sub-categories. It show products immediately when click on a tab without leaving page.</p>
+<p>You can show up to 3 sections of this section type. You can show root category or any sub-category as well.</p>
+<h3 id="configure-category-id-and-text">Configure Category ID and Text<a class="headerlink" href="#configure-category-id-and-text" title="Permanent link">&para;</a></h3>
+<p>To edit category ID and text, edit the the language file <code>en.json</code>, find keys <code>emthemesmodez</code> &gt; <code>products_by_category_subcategories_tabs</code>:</p>
+<p><img alt="Edit language of section products by category with subcategories tabs" src="../img/edit-language-products-by-category-sub-tabs.png" /></p>
+<ul>
+<li><code>heading</code>: is the main heading if specific category is root category.</li>
+<li><code>view_all</code>: is 'view all' link label.</li>
+<li><code>category_1</code>, <code>category_2</code>, <code>category_3</code>: is category ID of section instance 1st, 2nd and 3rd. You can display up to 3 instances of this section. Value <code>0</code> specifies category is root category.</li>
+</ul>
+<h3 id="colors-customization_3">Colors Customization<a class="headerlink" href="#colors-customization_3" title="Permanent link">&para;</a></h3>
+<p>You can customize colors in Theme Editor, <strong>Homepage</strong> section as showing below:</p>
+<p><img alt="Edit colors of products by category sub tabs" src="../img/theme-editor-products-by-category-sub-tabs.png" /></p>
+<h2 id="products-by-categories-columns">Products by Categories Columns<a class="headerlink" href="#products-by-categories-columns" title="Permanent link">&para;</a></h2>
+<p><img alt="Products by categories columns" src="../img/home1-products-by-category-columns.jpg" /></p>
+<p>This section let you show products in a specific category in each column. You can show this sections up to 3 times with different categories.</p>
+<h3 id="configure-category-ids-and-sorting-order">Configure Category IDs and sorting order<a class="headerlink" href="#configure-category-ids-and-sorting-order" title="Permanent link">&para;</a></h3>
+<p>To specify categories, edit the language file <code>en.json</code>, find keys <code>emthemesmodez</code> &gt; <code>products_by_category_columns</code>, there are 3 groups <code>instance1</code>, <code>instance2</code>, <code>instance3</code> represent 3 sections can display:</p>
+<p><img alt="Edit language for products by category columns" src="../img/edit-language-products-by-category-columns.png" /></p>
+<ul>
+<li><code>category_1</code>, <code>category_2</code>, <code>category_3</code>: is category ID of products in column 1, 2, 3.</li>
+<li><code>sort_by</code>: is products sorting order. Supports value <code>newest</code>, <code>featured</code>, <code>bestselling</code>.</li>
+</ul>
+<h3 id="colors-customization_4">Colors Customization<a class="headerlink" href="#colors-customization_4" title="Permanent link">&para;</a></h3>
+<p>You can customize colors in Theme Editor, <strong>Homepage</strong> section as showing below:</p>
+<p><img alt="Edit colors of products by category columns" src="../img/theme-editor-products-by-category-columns.png" /></p>
 <h2 id="new-featured-popular-products">New / Featured / Popular Products<a class="headerlink" href="#new-featured-popular-products" title="Permanent link">&para;</a></h2>
 <p>The theme supports 4 layout type of <strong>New Products</strong>, <strong>Featured Products</strong> and <strong>Popular Products</strong> blocks:</p>
 <p><strong>Grid</strong>:</p>
 <p><img alt="Products Grid" src="../img/home1-products-grid.jpg" /></p>
 <p><strong>Carousel</strong>:</p>
 <p><img alt="Products Carousel" src="../img/home1-products-carousel.jpg" /></p>
-<p><strong>Left Column Block</strong> &amp; <strong>Right Column Block</strong>:</p>
-<p><img alt="Products Column" src="../img/home1-products-column.jpg" /></p>
 <h3 id="configure-a-layout-type-of-products-block-number-of-products-to-show-up">Configure a Layout Type of products block &amp; Number of Products to show up<a class="headerlink" href="#configure-a-layout-type-of-products-block-number-of-products-to-show-up" title="Permanent link">&para;</a></h3>
 <p>In the <strong>Theme Editor</strong> &gt; <strong>Homepage</strong>, look into <strong>New Products</strong> section (or <strong>Featured Products</strong>, <strong>Most Popular Products</strong>):</p>
 <ul>
-<li><strong>Display type</strong>: Choose appropriate layout type (<strong>Grid</strong>, <strong>Carousel</strong>, <strong>Left Column</strong> or <strong>Right Column</strong>).</li>
+<li><strong>Display type</strong>: Choose appropriate layout type (<strong>Grid</strong>, <strong>Carousel</strong>).</li>
 <li><strong>Number of Products</strong>: Choose number of products to show up.</li>
 </ul>
 <p><img alt="Theme editor homepage products options" src="../img/theme-editor-homepage-products-options.png" /></p>
@@ -268,55 +301,17 @@
 <h3 id="change-the-heading-text">Change the heading text<a class="headerlink" href="#change-the-heading-text" title="Permanent link">&para;</a></h3>
 <p>To change the heading text (New Products, Featured Products, Most Popular Products), edit the language file, look for the key <code>products</code> &gt; <code>new</code> or <code>featured</code> or <code>top</code>.</p>
 <p><img alt="Edit language new products heading text" src="../img/edit-language-products-new.png" /></p>
-<h2 id="new-featured-popular-products-tabs">New / Featured / Popular Products Tabs<a class="headerlink" href="#new-featured-popular-products-tabs" title="Permanent link">&para;</a></h2>
-<p><img alt="Special products tabs" src="../img/home1-special-products-tabs.jpg" /></p>
-<p>This section allows you to display <strong>new products</strong>, <strong>featured products</strong>, and <strong>bestselling products</strong> in tabs. Products can be displayed as grid, list or carousel depend on configuration in the Theme Editor.</p>
-<p><img alt="products options" src="../img/theme-editor-homepage-products-options.png" /></p>
-<h2 id="products-by-category">Products by Category<a class="headerlink" href="#products-by-category" title="Permanent link">&para;</a></h2>
-<p><img alt="Products by category" src="../img/home1-products-by-category.jpg" /></p>
-<p>This section let you show up products in a specific category. You can display this section type up to 6 sections, represent 6 different categories.</p>
-<p>To specify which category to display, edit the language file <code>en.json</code>, find keys <code>emthemesmodez</code> &gt; <code>products_by_category_sorting_tabs</code>:</p>
-<p><img alt="Edit language products by category sorting tabs" src="../img/edit-language-products-by-category-sorting-tabs.png" /></p>
-<ul>
-<li>You can change text of each tabs in keys <code>bestselling</code>, <code>featured</code>, <code>new</code>, <code>reviews</code>.</li>
-<li>The link text View All Products can be changed by editing key <code>view_all</code>.</li>
-<li>Input <strong>category ID</strong> in key from <code>category_id_1</code> to <code>category_id_6</code> corresponding to 6 sections.</li>
-</ul>
-<p>To find category ID of a certain category, go to admin page &gt; Products &gt; Product Categories, click on a category to edit. Now look at the URL on your browser, the ID is appear in the URL as showing below:</p>
-<p><img alt="Find category ID" src="../img/find-category-id.png" /></p>
-<h2 id="products-by-category-advanced-style">Products by Category - Advanced Style<a class="headerlink" href="#products-by-category-advanced-style" title="Permanent link">&para;</a></h2>
-<p><img alt="Products by Category advanced style" src="../img/theme-editor-products-by-category-advanced.jpg" /></p>
-<p>You can configure 6 secitons of products by category above with advanced style. Allow you to show more 2 additional banners and showing images of each products as slider.</p>
-<p>In <strong>Theme Editor</strong> &gt; <strong>Homepage</strong> section, configure products by category as figured above.</p>
-<p>To edit these banners, edit the language file <code>en.json</code>, find keys <code>emthemessarahmarket</code> &gt; <code>products_by_category_sorting_tabs</code>, <code>instance1</code> to <code>instance6</code> represent 6 sections:</p>
-<h3 id="edit-banner-images">Edit banner images<a class="headerlink" href="#edit-banner-images" title="Permanent link">&para;</a></h3>
-<p><img alt="Edit language products by category sorting tabs banners" src="../img/edit-language-products-by-category-sorting-tabs-banners.png" /></p>
-<ul>
-<li><code>banner1</code> and <code>banner2</code>: are banner image URL.</li>
-<li><code>url1</code> and <code>url2</code>: are banner link.</li>
-</ul>
-<h2 id="products-by-categories-tabs">Products by Categories Tabs<a class="headerlink" href="#products-by-categories-tabs" title="Permanent link">&para;</a></h2>
-<p><img alt="Products by Categories with subcategories tabs" src="../img/home1-products-by-category-sub-tabs.jpg" /></p>
-<p>This section let you show products by category, Each tab is a sub-category, tab content contains products in corresponding sub-categories. It show products immediately when click on a tab without leaving page.</p>
-<p>You can show up to 3 sections of this section type. You can show root category or any sub-category as well.</p>
-<p>To edit category ID and text, edit the the language file <code>en.json</code>, find keys <code>emthemesmodez</code> &gt; <code>products_by_category_subcategories_tabs</code>:</p>
-<p><img alt="Edit language of section products by category with subcategories tabs" src="../img/edit-language-products-by-category-sub-tabs.png" /></p>
-<ul>
-<li><code>heading</code>: is the main heading if specific category is root category.</li>
-<li><code>view_all</code>: is 'view all' link label.</li>
-<li><code>category_1</code>, <code>category_2</code>, <code>category_3</code>: is category ID of section instance 1st, 2nd and 3rd. You can display up to 3 instances of this section. Value <code>0</code> specifies category is root category.</li>
-</ul>
-<h2 id="categories-list">Categories List<a class="headerlink" href="#categories-list" title="Permanent link">&para;</a></h2>
-<p><img alt="Categories List" src="../img/home1-categories-list.png" /></p>
-<p>This section lets you show categories list, category images and number of products per category.</p>
-<p>To edit text of this section, edit the language file <code>en.json</code>, find key <code>emthemesmodez</code> &gt; <code>categories_grid</code>:</p>
-<p><img alt="Edit language of categories grid section" src="../img/edit-language-categories-grid.png" /></p>
-<ul>
-<li><code>heading</code>: is section title.</li>
-<li><code>products_count</code>: is the translation text showing number of products in category.</li>
-</ul>
 <h2 id="image-banners">Image Banners<a class="headerlink" href="#image-banners" title="Permanent link">&para;</a></h2>
 <p>Theme supports many banner styles:</p>
+<h3 id="banners-game-platform-1">Banners Game Platform 1<a class="headerlink" href="#banners-game-platform-1" title="Permanent link">&para;</a></h3>
+<p><img alt="Banner game platform 1" src="../img/home1-banner-game-platform1.jpg" /></p>
+<p>To edit these banners, edit the language file <code>en.json</code>, find keys <code>emthemesmodez</code> &gt; <code>banners</code> &gt; <code>game_platform_1</code>:</p>
+<p><img alt="Edit language for game banner platform 1" src="../img/edit-language-banner-game-platform1.png" /></p>
+<p>If you require complex customization, just edit template file <code>templates/components/emthemes-modez/banners/game-platform1.html</code>.</p>
+<h3 id="banners-game-platform-2">Banners Game Platform 2<a class="headerlink" href="#banners-game-platform-2" title="Permanent link">&para;</a></h3>
+<p><img alt="Banner game platform 2" src="../img/home1-banner-game-platform2.jpg" /></p>
+<p><img alt="Edit language for game banner platform 2" src="../img/edit-language-banner-game-platform2.png" /></p>
+<p>If you require complex customization, just edit template file <code>templates/components/emthemes-modez/banners/game-platform2.html</code>.</p>
 <h3 id="fullwidth-banner">Fullwidth Banner<a class="headerlink" href="#fullwidth-banner" title="Permanent link">&para;</a></h3>
 <p><img alt="Fullwidth banner" src="../img/home1-fullwidth-banner.jpg" /></p>
 <p>Support displaying up to 5 fullwidth banners on homepage.</p>
@@ -353,81 +348,14 @@
 <li><code>title*</code>: is image text description.</li>
 <li><code>url*</code>: is image link. Leave a single space letter in the value if you want to hide any image.</li>
 </ul>
-<h2 id="recent-blog-posts">Recent Blog Posts<a class="headerlink" href="#recent-blog-posts" title="Permanent link">&para;</a></h2>
-<p><img alt="Recent blog posts" src="../img/home1-blog.jpg" /></p>
+<h2 id="footer-recent-blog-posts">Footer - Recent Blog Posts<a class="headerlink" href="#footer-recent-blog-posts" title="Permanent link">&para;</a></h2>
+<p><img alt="Recent blog posts" src="../img/theme-editor-footer-show-blog.png" /></p>
 <p>This block show the most recent blog posts.</p>
 <h3 id="customize-heading-text-and-other-text">Customize heading text and other text<a class="headerlink" href="#customize-heading-text-and-other-text" title="Permanent link">&para;</a></h3>
 <p>To change the heading text, read more text and date format, edit the language file. Find the key <code>blog</code> &gt; <code>recent_posts</code>, <code>posted_by</code> and <code>read_more</code>, edit its values as you want.</p>
 <p><img alt="Edit recent blog text in the language file" src="../img/edit-language-blog.png" /></p>
-<h2 id="instagram-photos">Instagram Photos<a class="headerlink" href="#instagram-photos" title="Permanent link">&para;</a></h2>
-<p><img alt="Instagram Photos block" src="../img/home1-instagram.jpg" /></p>
-<h3 id="get-your-own-user-id-client-id-access-token">Get your own User ID, Client ID, Access Token<a class="headerlink" href="#get-your-own-user-id-client-id-access-token" title="Permanent link">&para;</a></h3>
-<p>In order to display your Instagram photos on your website, you will need to get the <strong>User ID</strong>, <strong>Client ID</strong> and <strong>Access Token</strong> from <strong>Instagram Developer</strong> portal.</p>
-<h4 id="1-create-your-own-client-id">1. Create your own Client ID<a class="headerlink" href="#1-create-your-own-client-id" title="Permanent link">&para;</a></h4>
-<p>Open the URL <a href="https://www.instagram.com/developer/">https://www.instagram.com/developer/</a> in your browser.</p>
-<p>Login to your Instagram account.</p>
-<p>Click button <strong>Register Your Application</strong>: </p>
-<p><img alt="Instagram register your application" src="../img/instagram-register.png" /></p>
-<p>Click button <strong>Register a New Client</strong>: </p>
-<p><img alt="Instagram new client" src="../img/instagram-register-new-client.png" /></p>
-<p>Enter all required info on the form. </p>
-<p><img alt="Instagram registration form" src="../img/instagram-registration-form.png" /></p>
-<p>Note that <strong>Valid redirect URIs</strong> should be exactly <code>http://127.0.0.1</code> as recommended as it will be used in the next step.</p>
-<p>After submitting the form you will get back to the previous page with a new <strong>Client ID</strong> is created.</p>
-<p><img alt="Instagram Manage Clients" src="../img/instagram-manage-clients.png" /></p>
-<p>Save this <strong>Client ID</strong> value, it will be used to configure the Instagram Photos block.</p>
-<h4 id="2-retrieve-your-access-token">2. Retrieve your Access Token<a class="headerlink" href="#2-retrieve-your-access-token" title="Permanent link">&para;</a></h4>
-<p>Click button <strong>Manage</strong> on your the client app created previously. Open <strong>Security</strong> tab, uncheck <strong>Disable Implicit OAuth</strong> checkbox:</p>
-<p><img alt="Manage client - security tab" src="../img/instagram-implicit-oauth.png" /></p>
-<p>Click <strong>Update Client</strong> button to complete.</p>
-<p>Now open your web browser with the URL: </p>
-<pre><code class="plain">https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&amp;redirect_uri=http://127.0.0.1&amp;response_type=token
-</code></pre>
-
-<p>where <code>CLIENT-ID</code> is replaced by your <strong>Client ID</strong> number created previously.</p>
-<p>Click <strong>Authorize</strong> button to grant access permission:</p>
-<p><img alt="Authorize client app" src="../img/instagram-authorize.png" /></p>
-<p>Instagram will redirect you to an error page with the URL similiar: </p>
-<p><img alt="URL contains access token" src="../img/instagram-get-code.png" /></p>
-<p>The text after <code>access_token=</code> is the <strong>Access Token</strong> you want to get. Save it for the next step.</p>
-<h4 id="3-retrieve-your-user-id">3. Retrieve your User ID<a class="headerlink" href="#3-retrieve-your-user-id" title="Permanent link">&para;</a></h4>
-<p>Open the link below on your web browser:</p>
-<pre><code class="plain">https://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN
-</code></pre>
-
-<p>Where <code>ACCESS-TOKEN</code> is replaced by your real <strong>Access Token</strong> just received previously.</p>
-<p><img alt="User ID code" src="../img/instagram-get-userid.png" /></p>
-<p>The number in <code>"id": "..."</code> is your <strong>User ID</strong>.</p>
-<h3 id="display-your-instagram-photos">Display your Instagram photos<a class="headerlink" href="#display-your-instagram-photos" title="Permanent link">&para;</a></h3>
-<p>To display our own Instagram photos, edit the language file. Find the key <code>emthemesmodez</code> &gt; <code>instagram</code>, input your real code:</p>
-<ul>
-<li><code>user_id</code>: Is your Instagram <strong>User ID</strong>.</li>
-<li><code>client_id</code>: is your Instagram <strong>Client ID</strong>.</li>
-<li><code>access_token</code>: is your Instagram <strong>Access Token</strong>.</li>
-<li><code>title</code>: Is the heading text.</li>
-</ul>
-<p><img alt="Edit instagram in the language file" src="../img/edit-language-instagram.png" /></p>
-<h2 id="footer-top-info-text">Footer - Top info text<a class="headerlink" href="#footer-top-info-text" title="Permanent link">&para;</a></h2>
-<p><img alt="Footer top info text" src="../img/home1-footer-topinfo.png" /></p>
-<p>To edit this section's text, edit the language file <code>en.json</code>, find keys <code>emthemessarahmarket</code> &gt; <code>footer</code> &gt; <code>top_info</code>:</p>
-<p><img alt="Edit language file for top info text" src="../img/edit-language-footer-topinfo.png" /></p>
-<ul>
-<li><code>heading_*</code>: is heading text.</li>
-<li><code>content_*</code>: is content text.</li>
-</ul>
-<p>You can edit the template file <code>templates/components/common/footer.html</code> for advanced customization:</p>
-<p><img alt="Source code of footer top info text" src="../img/html-footer-topinfo.png" /></p>
-<h2 id="footer-newsletter">Footer - Newsletter<a class="headerlink" href="#footer-newsletter" title="Permanent link">&para;</a></h2>
-<p><img alt="Newsletter" src="../img/home1-newsletter.png" /></p>
-<h3 id="edit-text">Edit text<a class="headerlink" href="#edit-text" title="Permanent link">&para;</a></h3>
-<p>To edit text in newsletter form, edit the language file <code>en.json</code>, find key <code>newsletter</code>, edit text in this section:</p>
-<p><img alt="Edit language newsletter" src="../img/edit-language-newsletter.png" /></p>
-<h3 id="social-media-icons">Social media icons<a class="headerlink" href="#social-media-icons" title="Permanent link">&para;</a></h3>
-<p>Drag and drop social media icons you want to display in admin page &gt; <strong>Storefront Design</strong> &gt; <strong>Design Options</strong>:</p>
-<p><img alt="Edit social media icons" src="../img/edit-social-media-icons.png" /></p>
-<h3 id="edit-shop-on-the-go-text">Edit Shop On-The-Go text<a class="headerlink" href="#edit-shop-on-the-go-text" title="Permanent link">&para;</a></h3>
-<p>To edit this text, edit the language file <code>en.json</code> &gt; find key <code>emthemessarahmarket</code> &gt; <code>footer</code> &gt; <code>shop_on_the_go</code>:</p>
-<p><img alt="Edit language text shop on the go" src="../img/edit-language-shop-on-the-go.png" /></p>
+<h3 id="showhide-configure-number-of-posts">Show/Hide &amp; Configure number of posts<a class="headerlink" href="#showhide-configure-number-of-posts" title="Permanent link">&para;</a></h3>
+<p>To show/hide or configure number of posts to display, open <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section &gt; select value of <strong>Show recent blog</strong>.</p>
 <h2 id="footer-custom-links">Footer - Custom Links<a class="headerlink" href="#footer-custom-links" title="Permanent link">&para;</a></h2>
 <p><img alt="Footer custom links" src="../img/home1-footer-custom-links.png" /></p>
 <p>To edit text and links in this footer section, edit the language file, find keys <code>footer</code>, 4 keys <code>links_col_1</code>, <code>links_col_2</code>, <code>links_col_3</code>, <code>links_col_4</code> represent 4 link columns:</p>
@@ -437,14 +365,20 @@
 <li><code>title</code>: is link label. Leave a single space character to hide this link.</li>
 <li><code>url</code>: is link URL.</li>
 </ul>
+<p>You can show or hide any custom links group in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section:</p>
+<p><img alt="Show or hide custom links in theme editor" src="../img/theme-editor-footer-show-links.png" /></p>
 <h2 id="footer-page-links">Footer - Page Links<a class="headerlink" href="#footer-page-links" title="Permanent link">&para;</a></h2>
 <p><img alt="Footer page links" src="../img/home1-footer-pages.png" /></p>
 <p>This section will show all our page links. To change the heading text <strong>Navigate</strong>, edit the language file <code>en.json</code>, find key <code>footer</code> &gt; <code>navigate</code>, change this key value:</p>
 <p><img alt="Edit language file for footer page links heading" src="../img/edit-language-footer-page-links.png" /></p>
+<p>You can configure to show or hide, number of page links to show in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section:</p>
+<p><img alt="Configure footer pages to show" src="../img/theme-editor-footer-show-pages.png" /></p>
 <h2 id="footer-category-links">Footer - Category Links<a class="headerlink" href="#footer-category-links" title="Permanent link">&para;</a></h2>
 <p><img alt="Footer category links" src="../img/home1-footer-categories.png" /></p>
 <p>Edit heading text <strong>Categories</strong> in the language file <code>en.json</code>, find key <code>footer</code> &gt; <code>categories</code>:</p>
 <p><img alt="Edit language for footer categories" src="../img/edit-language-footer-categories.png" /></p>
+<p>You can configure to show or hide, number of categories to show in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section:</p>
+<p><img alt="Configure footer categories to show" src="../img/theme-editor-footer-show-categories.png" /></p>
 <h2 id="footer-contact-info">Footer - Contact Info<a class="headerlink" href="#footer-contact-info" title="Permanent link">&para;</a></h2>
 <p><img alt="Footer contact info" src="../img/home1-footer-contact-info.png" /></p>
 <p>Edit heading text <strong>Contact Info</strong> in the language file <code>en.json</code>, find key <code>footer</code> &gt; <code>info</code>:</p>
@@ -454,14 +388,31 @@
 <li><code>email</code>: is email to display.</li>
 </ul>
 <p>Address can be edited in admin page &gt; <strong>Store Setup</strong> &gt; <strong>Store Profile</strong> &gt; <strong>Store Address</strong>.</p>
+<p>You can configure to show or hide this section in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section:</p>
+<p><img alt="Configure footer to show or hide section" src="../img/theme-editor-footer-show-contact-info.png" /></p>
+<h2 id="footer-newsletter">Footer - Newsletter<a class="headerlink" href="#footer-newsletter" title="Permanent link">&para;</a></h2>
+<p><img alt="Newsletter" src="../img/home1-newsletter.png" /></p>
+<h3 id="edit-text">Edit text<a class="headerlink" href="#edit-text" title="Permanent link">&para;</a></h3>
+<p>To edit text in newsletter form, edit the language file <code>en.json</code>, find key <code>newsletter</code>, edit text in this section:</p>
+<p><img alt="Edit language newsletter" src="../img/edit-language-newsletter.png" /></p>
+<h3 id="social-media-icons">Social media icons<a class="headerlink" href="#social-media-icons" title="Permanent link">&para;</a></h3>
+<p>Drag and drop social media icons you want to display in admin page &gt; <strong>Storefront Design</strong> &gt; <strong>Design Options</strong>:</p>
+<p><img alt="Edit social media icons" src="../img/edit-social-media-icons.png" /></p>
+<h3 id="showhide">Show/Hide<a class="headerlink" href="#showhide" title="Permanent link">&para;</a></h3>
+<p>You can configure to show or hide this section in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section:</p>
+<p><img alt="Configure footer to show or hide section" src="../img/theme-editor-footer-show-contact-info.png" /></p>
 <h2 id="footer-location">Footer - Location<a class="headerlink" href="#footer-location" title="Permanent link">&para;</a></h2>
 <p><img alt="Footer location" src="../img/home1-footer-location.png" /></p>
 <p>Edit heading text <strong>Contact Info</strong> and the image in the language file <code>en.json</code>, find key <code>footer</code>, change value of <code>location</code> and <code>location_image</code>:</p>
 <p><img alt="Edit language for footer location" src="../img/edit-language-footer-location.png" /></p>
+<p>You can configure to show or hide this section in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section:</p>
+<p><img alt="Configure footer to show or hide section" src="../img/theme-editor-footer-show-contact-info.png" /></p>
 <h2 id="footer-popular-brands">Footer - Popular Brands<a class="headerlink" href="#footer-popular-brands" title="Permanent link">&para;</a></h2>
 <p><img alt="Footer brands" src="../img/home1-footer-brands.png" /></p>
 <p>Edit heading text <strong>Popular Brands</strong> in the language file <code>en.json</code>, find key <code>footer</code> &gt; <code>brands</code>:</p>
 <p><img alt="Edit language for footer brands" src="../img/edit-language-footer-brands.png" /></p>
+<p>You can configure to show or hide this section in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section:</p>
+<p><img alt="Configure footer to show or hide section" src="../img/theme-editor-footer-show-contact-info.png" /></p>
 <h2 id="footer-payment-icons">Footer - Payment Icons<a class="headerlink" href="#footer-payment-icons" title="Permanent link">&para;</a></h2>
 <p><img alt="Theme editor payment icons" src="../img/theme-editor-payment-icons.png" /></p>
 <p>To show/hide payment icons, go to Theme <strong>Editor</strong> &gt; <strong>Payment Icons</strong> secitons, check or uncheck any icons you want to show or hide.</p>
@@ -473,20 +424,10 @@
 <p>To edit the homepage template, open <strong>Edit Theme Files</strong>, find and open file <code>templates</code> &gt; <code>pages</code> &gt; <code>home.html</code>:</p>
 <p><img alt="Edit file home.html" src="../img/edit-file-home.png" /></p>
 <p>Look at the code in <code>home.html</code>:</p>
-<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;featured_products&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;banner_one_1&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;popular_products&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;new_products&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;banner_one_2&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_sorting_tabs_1&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;banner_one_3&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_sorting_tabs_2&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;banner_one_4&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_sorting_tabs_3&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;banner_one_5&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_sorting_tabs_4&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_sorting_tabs_5&quot;}}
-{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_sorting_tabs_6&quot;}}
+<pre><code>{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_subcategories_tabs_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;banners_game_platform_1&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;banners_game_platform_2&quot;}}
+{{&gt; components/emthemes-modez/sections/section section=&quot;products_by_category_columns_1&quot;}}
 {{&gt; components/emthemes-modez/sections/section section=&quot;images_carousel&quot;}}
 </code></pre>
 
@@ -496,9 +437,6 @@
 <li><code>featured_products</code>                         : Show featured products. Screenshot: http://prntscr.com/elevep</li>
 <li><code>popular_products</code>                          : Show popular products. Screenshot: http://prntscr.com/elevk2</li>
 <li><code>new_products</code>                              : Show new products. Screenshot: http://prntscr.com/elevqg</li>
-<li><code>special_products_tabs</code>                     : Show products tabs contain featured, popular, new products</li>
-<li><code>categories_grid</code>                           : Show product categories</li>
-<li><code>blog_recent</code>                               : Show recent posts</li>
 <li><code>banner_one_1</code>                              : Show 1st full width banner. Screenshot: http://prntscr.com/elevyw</li>
 <li><code>banner_one_2</code>                              : Show 2nd full width banner</li>
 <li><code>banner_one_3</code>                              : Show 3rd full width banner</li>
@@ -519,17 +457,13 @@
 <li><code>banner_3x_3</code>                               : Show 3rd 3 1/3 banners</li>
 <li><code>banner_3x_4</code>                               : Show 4th 3 1/3 banners</li>
 <li><code>banner_3x_5</code>                               : Show 5th 3 1/3 banners</li>
-<li><code>products_by_category_sorting_tabs_1</code>       : Show 1st products by a category with sorting tabs (featured, bestselling, new, top reviewed). Screenshot: http://prntscr.com/elewh4</li>
-<li><code>products_by_category_sorting_tabs_2</code>       : Show 2nd products by a category with sorting tabs (featured, bestselling, new, top reviewed)</li>
-<li><code>products_by_category_sorting_tabs_3</code>       : Show 3rd products by a category with sorting tabs (featured, bestselling, new, top reviewed)</li>
-<li><code>products_by_category_sorting_tabs_4</code>       : Show 4th products by a category with sorting tabs (featured, bestselling, new, top reviewed)</li>
-<li><code>products_by_category_sorting_tabs_5</code>       : Show 5th products by a category with sorting tabs (featured, bestselling, new, top reviewed)</li>
-<li><code>products_by_category_sorting_tabs_6</code>       : Show 6th products by a category with sorting tabs (featured, bestselling, new, top reviewed)</li>
 <li><code>products_by_category_subcategories_tabs_1</code> : Show 1st products by a categories with subcategories tabs</li>
 <li><code>products_by_category_subcategories_tabs_2</code> : Show 2nd products by a categories with subcategories tabs</li>
 <li><code>products_by_category_subcategories_tabs_3</code> : Show 3rd products by a categories with subcategories tabs</li>
+<li><code>products_by_category_columns_1</code>            : Show 1st products by a categories in columns</li>
+<li><code>products_by_category_columns_2</code>            : Show 2nd products by a categories in columns</li>
+<li><code>products_by_category_columns_3</code>            : Show 3rd products by a categories in columns</li>
 <li><code>images_carousel</code>                           : Show images carousel. Screenshot: http://prntscr.com/elewn3</li>
-<li><code>brands_carousel</code>                           : Show brands carousel</li>
 </ul>
 <p>You can add or delete any section you want, rerrange by move each line up or down.</p>
 <h2 id="edit-footer-template">Edit footer template<a class="headerlink" href="#edit-footer-template" title="Permanent link">&para;</a></h2>
