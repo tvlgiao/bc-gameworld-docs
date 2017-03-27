@@ -60,8 +60,13 @@ To activate a theme style, open Theme Editor, find __Styles__ section, click on 
 ![Theme editor style](img/theme-editor-style.jpg)
 
 
-### Default
+### Glossy
 
 ![Home 1](img/home1.jpg)
+
+
+### Flat
+
+![Home 2](img/home2.jpg)
 
 

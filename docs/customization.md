@@ -39,6 +39,8 @@ This theme support 2 different header styles:
 
 ![Header Logo at right](img/home1-header-right.png)
 
+![Header Logo at center](img/home1-header-center.png)
+
 To configure, open the __Theme Editor__, scroll down to section __Logo__, click to expand the logo options. Choose a certain option of __Logo position__, then click __Refresh__ button appear after.
 
 ![Change logo position](img/change-logo-position.png)
@@ -88,21 +90,110 @@ To customize color of the slideshow's elements, look into section __Carousel__ i
 To hide the slideshow on homepage, uncheck on the checkbox __Show Carousel__ in section __Carousel__ of the Theme Editor.
 
 
-## 2 Banners beside the main slideshow
+### Edit custom links
 
-![Home 1 slideshow banners](img/home1-slideshow-banners.png)
+![Custom links on the main carousel](img/home1-main-carousel-links.jpg)
 
-To edit 2 banners, edit the language file `en.json`, find key `emthemesmodez` > `slideshow`:
+For editing these links, edit the language file `en.json`, find keys `emthemesmodez` > `home_carousel_links`:
 
-![Edit language slideshow banners](img/edit-language-slideshow-banners.png)
+![Edit language for main slideshow links](img/edit-language-main-slideshow-links.png)
 
-- `title`: is banner alt text.
-- `image`: is image URL.
-- `url`: is image link.
+- `heading*`: is the heading text. Live this value a single space character if you want to hide this link.
+- `text*`: is the sub-heading text.
+- `url*`: is the link URL.
 
-You can remove 2 banners completely by editing template file `templates/components/emthemes-modez/sections/section1-sarahmarket1.html` delete the code figured as below:
 
-![Source code of the slideshow banners](img/html-slideshow-banners.png)
+### Products display on the main slideshow
+
+![Main carousel featured products](img/home1-main-carousel-products.jpg)
+
+By default, products displaying on the main carousel are __featured products__. It is easy to change to __new products__ or __bestselling products__ or even hide it completely.
+
+Edit the template file `templates/components/carousel.html` the file editor:
+
+![Edit file carousel.html](img/edit-file-carousel.png)
+
+To display __new products__, change the text `products.featured` to `products.new`.
+
+To display __bestselling products__, change the text `products.featured` to `products.top`.
+
+If you don't want to display these products. Just delete the code:
+
+```
+<div class="emthemesModez-heroCarousel-product">
+    {{#each ../products.featured}}
+        {{#if @index '==' @../index}}
+            {{>components/products/list-item 
+                show_rating=../../../settings.show_product_rating
+                theme_settings=../../../theme_settings 
+                customer=../../../customer}}
+        {{/if}}
+    {{/each}}
+</div>
+```
+
+
+
+
+
+
+## Products by Categories Tabs
+
+![Products by Categories with subcategories tabs](img/home1-products-by-category-sub-tabs.jpg)
+
+This section lets you show products by category, Each tab is a sub-category, tab content contains products in corresponding sub-categories. It show products immediately when click on a tab without leaving page.
+
+You can show up to 3 sections of this section type. You can show root category or any sub-category as well.
+
+
+### Configure Category ID and Text
+
+To edit category ID and text, edit the the language file `en.json`, find keys `emthemesmodez` > `products_by_category_subcategories_tabs`:
+
+![Edit language of section products by category with subcategories tabs](img/edit-language-products-by-category-sub-tabs.png)
+
+- `heading`: is the main heading if specific category is root category.
+- `view_all`: is 'view all' link label.
+- `category_1`, `category_2`, `category_3`: is category ID of section instance 1st, 2nd and 3rd. You can display up to 3 instances of this section. Value `0` specifies category is root category.
+
+
+### Colors Customization
+
+You can customize colors in Theme Editor, __Homepage__ section as showing below:
+
+![Edit colors of products by category sub tabs](img/theme-editor-products-by-category-sub-tabs.png)
+
+
+
+
+
+
+## Products by Categories Columns
+
+![Products by categories columns](img/home1-products-by-category-columns.jpg)
+
+This section let you show products in a specific category in each column. You can show this sections up to 3 times with different categories.
+
+### Configure Category IDs and sorting order
+
+To specify categories, edit the language file `en.json`, find keys `emthemesmodez` > `products_by_category_columns`, there are 3 groups `instance1`, `instance2`, `instance3` represent 3 sections can display:
+
+![Edit language for products by category columns](img/edit-language-products-by-category-columns.png)
+
+- `category_1`, `category_2`, `category_3`: is category ID of products in column 1, 2, 3.
+- `sort_by`: is products sorting order. Supports value `newest`, `featured`, `bestselling`.
+
+
+### Colors Customization
+
+You can customize colors in Theme Editor, __Homepage__ section as showing below:
+
+![Edit colors of products by category columns](img/theme-editor-products-by-category-columns.png)
+
+
+
+
+
 
 
 ## New / Featured / Popular Products
@@ -117,16 +208,14 @@ __Carousel__:
 
 ![Products Carousel](img/home1-products-carousel.jpg)
 
-__Left Column Block__ & __Right Column Block__:
 
-![Products Column](img/home1-products-column.jpg)
 
 
 ### Configure a Layout Type of products block & Number of Products to show up
 
 In the __Theme Editor__ > __Homepage__, look into __New Products__ section (or __Featured Products__, __Most Popular Products__):
 
-- __Display type__: Choose appropriate layout type (__Grid__, __Carousel__, __Left Column__ or __Right Column__).
+- __Display type__: Choose appropriate layout type (__Grid__, __Carousel__).
 - __Number of Products__: Choose number of products to show up.
 
 ![Theme editor homepage products options](img/theme-editor-homepage-products-options.png)
@@ -156,103 +245,35 @@ To change the heading text (New Products, Featured Products, Most Popular Produc
 
 
 
-## New / Featured / Popular Products Tabs
-
-![Special products tabs](img/home1-special-products-tabs.jpg)
-
-This section allows you to display __new products__, __featured products__, and __bestselling products__ in tabs. Products can be displayed as grid, list or carousel depend on configuration in the Theme Editor.
-
-![products options](img/theme-editor-homepage-products-options.png)
-
-
-
-
-
-
-
-## Products by Category
-
-![Products by category](img/home1-products-by-category.jpg)
-
-This section let you show up products in a specific category. You can display this section type up to 6 sections, represent 6 different categories.
-
-To specify which category to display, edit the language file `en.json`, find keys `emthemesmodez` > `products_by_category_sorting_tabs`:
-
-![Edit language products by category sorting tabs](img/edit-language-products-by-category-sorting-tabs.png)
-
-- You can change text of each tabs in keys `bestselling`, `featured`, `new`, `reviews`.
-- The link text View All Products can be changed by editing key `view_all`.
-- Input __category ID__ in key from `category_id_1` to `category_id_6` corresponding to 6 sections.
-
-To find category ID of a certain category, go to admin page > Products > Product Categories, click on a category to edit. Now look at the URL on your browser, the ID is appear in the URL as showing below:
-
-![Find category ID](img/find-category-id.png)
-
-
-
-
-
-
-## Products by Category - Advanced Style
-
-![Products by Category advanced style](img/theme-editor-products-by-category-advanced.jpg)
-
-You can configure 6 secitons of products by category above with advanced style. Allow you to show more 2 additional banners and showing images of each products as slider.
-
-In __Theme Editor__ > __Homepage__ section, configure products by category as figured above.
-
-To edit these banners, edit the language file `en.json`, find keys `emthemessarahmarket` > `products_by_category_sorting_tabs`, `instance1` to `instance6` represent 6 sections:
-
-### Edit banner images
-
-![Edit language products by category sorting tabs banners](img/edit-language-products-by-category-sorting-tabs-banners.png)
-
-- `banner1` and `banner2`: are banner image URL.
-- `url1` and `url2`: are banner link.
-
-
-
-## Products by Categories Tabs
-
-![Products by Categories with subcategories tabs](img/home1-products-by-category-sub-tabs.jpg)
-
-This section let you show products by category, Each tab is a sub-category, tab content contains products in corresponding sub-categories. It show products immediately when click on a tab without leaving page.
-
-You can show up to 3 sections of this section type. You can show root category or any sub-category as well.
-
-To edit category ID and text, edit the the language file `en.json`, find keys `emthemesmodez` > `products_by_category_subcategories_tabs`:
-
-![Edit language of section products by category with subcategories tabs](img/edit-language-products-by-category-sub-tabs.png)
-
-- `heading`: is the main heading if specific category is root category.
-- `view_all`: is 'view all' link label.
-- `category_1`, `category_2`, `category_3`: is category ID of section instance 1st, 2nd and 3rd. You can display up to 3 instances of this section. Value `0` specifies category is root category.
-
-
-
-
-## Categories List
-
-![Categories List](img/home1-categories-list.png)
-
-This section lets you show categories list, category images and number of products per category.
-
-To edit text of this section, edit the language file `en.json`, find key `emthemesmodez` > `categories_grid`:
-
-![Edit language of categories grid section](img/edit-language-categories-grid.png)
-
-- `heading`: is section title.
-- `products_count`: is the translation text showing number of products in category.
-
-
-
-
 
 
 
 ## Image Banners
 
 Theme supports many banner styles:
+
+
+### Banners Game Platform 1
+
+![Banner game platform 1](img/home1-banner-game-platform1.jpg)
+
+To edit these banners, edit the language file `en.json`, find keys `emthemesmodez` > `banners` > `game_platform_1`:
+
+![Edit language for game banner platform 1](img/edit-language-banner-game-platform1.png)
+
+If you require complex customization, just edit template file `templates/components/emthemes-modez/banners/game-platform1.html`.
+
+
+### Banners Game Platform 2
+
+![Banner game platform 2](img/home1-banner-game-platform2.jpg)
+
+![Edit language for game banner platform 2](img/edit-language-banner-game-platform2.png)
+
+If you require complex customization, just edit template file `templates/components/emthemes-modez/banners/game-platform2.html`.
+
+
+
 
 ### Fullwidth Banner
 ![Fullwidth banner](img/home1-fullwidth-banner.jpg)
@@ -326,9 +347,9 @@ To edit image and links in this image carousel section, edit the language file, 
 
 
 
-## Recent Blog Posts
+## Footer - Recent Blog Posts
 
-![Recent blog posts](img/home1-blog.jpg)
+![Recent blog posts](img/theme-editor-footer-show-blog.png)
 
 This block show the most recent blog posts.
 
@@ -338,6 +359,9 @@ To change the heading text, read more text and date format, edit the language fi
 
 ![Edit recent blog text in the language file](img/edit-language-blog.png)
 
+### Show/Hide & Configure number of posts
+
+To show/hide or configure number of posts to display, open __Theme Editor__ > __Footer__ section > select value of __Show recent blog__.
 
 
 
@@ -345,112 +369,76 @@ To change the heading text, read more text and date format, edit the language fi
 
 
 
-## Instagram Photos
 
-![Instagram Photos block](img/home1-instagram.jpg)
+## Footer - Custom Links
 
-### Get your own User ID, Client ID, Access Token
+![Footer custom links](img/home1-footer-custom-links.png)
 
-In order to display your Instagram photos on your website, you will need to get the __User ID__, __Client ID__ and __Access Token__ from __Instagram Developer__ portal.
+To edit text and links in this footer section, edit the language file, find keys `footer`, 4 keys `links_col_1`, `links_col_2`, `links_col_3`, `links_col_4` represent 4 link columns:
 
-#### 1. Create your own Client ID
+![Edit language file for footer custom links](img/edit-language-footer-custom-links.png)
 
-Open the URL <https://www.instagram.com/developer/> in your browser.
+- `heading`: is heading title in each column.
+- `title`: is link label. Leave a single space character to hide this link.
+- `url`: is link URL.
 
-Login to your Instagram account.
 
-Click button __Register Your Application__: 
+You can show or hide any custom links group in __Theme Editor__ > __Footer__ section:
 
-![Instagram register your application](img/instagram-register.png)
-
-Click button __Register a New Client__: 
-
-![Instagram new client](img/instagram-register-new-client.png)
-
-Enter all required info on the form. 
-
-![Instagram registration form](img/instagram-registration-form.png)
-
-Note that __Valid redirect URIs__ should be exactly `http://127.0.0.1` as recommended as it will be used in the next step.
-
-After submitting the form you will get back to the previous page with a new __Client ID__ is created.
-
-![Instagram Manage Clients](img/instagram-manage-clients.png)
-
-Save this __Client ID__ value, it will be used to configure the Instagram Photos block.
-
-#### 2. Retrieve your Access Token
-
-Click button __Manage__ on your the client app created previously. Open __Security__ tab, uncheck __Disable Implicit OAuth__ checkbox:
-
-![Manage client - security tab](img/instagram-implicit-oauth.png)
-
-Click __Update Client__ button to complete.
-
-Now open your web browser with the URL: 
-
-```plain
-https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=http://127.0.0.1&response_type=token
-```
-
-where `CLIENT-ID` is replaced by your __Client ID__ number created previously.
-
-Click __Authorize__ button to grant access permission:
-
-![Authorize client app](img/instagram-authorize.png)
-
-Instagram will redirect you to an error page with the URL similiar: 
-
-![URL contains access token](img/instagram-get-code.png)
-
-The text after `access_token=` is the __Access Token__ you want to get. Save it for the next step.
-
-#### 3. Retrieve your User ID
-
-Open the link below on your web browser:
-
-```plain
-https://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN
-```
-Where `ACCESS-TOKEN` is replaced by your real __Access Token__ just received previously.
-
-![User ID code](img/instagram-get-userid.png)
-
-The number in `"id": "..."` is your __User ID__.
-
-### Display your Instagram photos
-
-To display our own Instagram photos, edit the language file. Find the key `emthemesmodez` > `instagram`, input your real code:
-
-- `user_id`: Is your Instagram __User ID__.
-- `client_id`: is your Instagram __Client ID__.
-- `access_token`: is your Instagram __Access Token__.
-- `title`: Is the heading text.
-
-![Edit instagram in the language file](img/edit-language-instagram.png)
+![Show or hide custom links in theme editor](img/theme-editor-footer-show-links.png)
 
 
 
 
 
-## Footer - Top info text
 
-![Footer top info text](img/home1-footer-topinfo.png)
+## Footer - Page Links
 
-To edit this section's text, edit the language file `en.json`, find keys `emthemessarahmarket` > `footer` > `top_info`:
+![Footer page links](img/home1-footer-pages.png)
 
-![Edit language file for top info text](img/edit-language-footer-topinfo.png)
+This section will show all our page links. To change the heading text __Navigate__, edit the language file `en.json`, find key `footer` > `navigate`, change this key value:
 
-- `heading_*`: is heading text.
-- `content_*`: is content text.
+![Edit language file for footer page links heading](img/edit-language-footer-page-links.png)
 
-You can edit the template file `templates/components/common/footer.html` for advanced customization:
+You can configure to show or hide, number of page links to show in __Theme Editor__ > __Footer__ section:
 
-![Source code of footer top info text](img/html-footer-topinfo.png)
+![Configure footer pages to show](img/theme-editor-footer-show-pages.png)
 
 
 
 
+## Footer - Category Links
+
+![Footer category links](img/home1-footer-categories.png)
+
+Edit heading text __Categories__ in the language file `en.json`, find key `footer` > `categories`:
+
+![Edit language for footer categories](img/edit-language-footer-categories.png)
+
+You can configure to show or hide, number of categories to show in __Theme Editor__ > __Footer__ section:
+
+![Configure footer categories to show](img/theme-editor-footer-show-categories.png)
+
+
+
+
+
+## Footer - Contact Info
+
+![Footer contact info](img/home1-footer-contact-info.png)
+
+Edit heading text __Contact Info__ in the language file `en.json`, find key `footer` > `info`:
+
+![Edit language for footer contact info](img/edit-language-footer-contact-info.png)
+
+- `call_us`: is the translation text for phone calling number.
+- `email`: is email to display.
+
+Address can be edited in admin page > __Store Setup__ > __Store Profile__ > __Store Address__.
+
+You can configure to show or hide this section in __Theme Editor__ > __Footer__ section:
+
+![Configure footer to show or hide section](img/theme-editor-footer-show-contact-info.png)
 
 
 
@@ -473,62 +461,12 @@ Drag and drop social media icons you want to display in admin page > __Storefron
 
 ![Edit social media icons](img/edit-social-media-icons.png)
 
-### Edit Shop On-The-Go text
 
-To edit this text, edit the language file `en.json` > find key `emthemessarahmarket` > `footer` > `shop_on_the_go`:
+### Show/Hide
 
-![Edit language text shop on the go](img/edit-language-shop-on-the-go.png)
+You can configure to show or hide this section in __Theme Editor__ > __Footer__ section:
 
-
-
-
-
-## Footer - Custom Links
-
-![Footer custom links](img/home1-footer-custom-links.png)
-
-To edit text and links in this footer section, edit the language file, find keys `footer`, 4 keys `links_col_1`, `links_col_2`, `links_col_3`, `links_col_4` represent 4 link columns:
-
-![Edit language file for footer custom links](img/edit-language-footer-custom-links.png)
-
-- `heading`: is heading title in each column.
-- `title`: is link label. Leave a single space character to hide this link.
-- `url`: is link URL.
-
-
-
-## Footer - Page Links
-
-![Footer page links](img/home1-footer-pages.png)
-
-This section will show all our page links. To change the heading text __Navigate__, edit the language file `en.json`, find key `footer` > `navigate`, change this key value:
-
-![Edit language file for footer page links heading](img/edit-language-footer-page-links.png)
-
-
-## Footer - Category Links
-
-![Footer category links](img/home1-footer-categories.png)
-
-Edit heading text __Categories__ in the language file `en.json`, find key `footer` > `categories`:
-
-![Edit language for footer categories](img/edit-language-footer-categories.png)
-
-
-
-
-## Footer - Contact Info
-
-![Footer contact info](img/home1-footer-contact-info.png)
-
-Edit heading text __Contact Info__ in the language file `en.json`, find key `footer` > `info`:
-
-![Edit language for footer contact info](img/edit-language-footer-contact-info.png)
-
-- `call_us`: is the translation text for phone calling number.
-- `email`: is email to display.
-
-Address can be edited in admin page > __Store Setup__ > __Store Profile__ > __Store Address__.
+![Configure footer to show or hide section](img/theme-editor-footer-show-contact-info.png)
 
 
 
@@ -543,6 +481,9 @@ Edit heading text __Contact Info__ and the image in the language file `en.json`,
 
 ![Edit language for footer location](img/edit-language-footer-location.png)
 
+You can configure to show or hide this section in __Theme Editor__ > __Footer__ section:
+
+![Configure footer to show or hide section](img/theme-editor-footer-show-contact-info.png)
 
 
 
@@ -555,6 +496,9 @@ Edit heading text __Popular Brands__ in the language file `en.json`, find key `f
 
 ![Edit language for footer brands](img/edit-language-footer-brands.png)
 
+You can configure to show or hide this section in __Theme Editor__ > __Footer__ section:
+
+![Configure footer to show or hide section](img/theme-editor-footer-show-contact-info.png)
 
 
 
@@ -563,6 +507,7 @@ Edit heading text __Popular Brands__ in the language file `en.json`, find key `f
 ![Theme editor payment icons](img/theme-editor-payment-icons.png)
 
 To show/hide payment icons, go to Theme __Editor__ > __Payment Icons__ secitons, check or uncheck any icons you want to show or hide.
+
 
 
 
@@ -588,20 +533,10 @@ To edit the homepage template, open __Edit Theme Files__, find and open file `te
 Look at the code in `home.html`:
 
 ```
-{{> components/emthemes-modez/sections/section section="featured_products"}}
-{{> components/emthemes-modez/sections/section section="banner_one_1"}}
-{{> components/emthemes-modez/sections/section section="popular_products"}}
-{{> components/emthemes-modez/sections/section section="new_products"}}
-{{> components/emthemes-modez/sections/section section="banner_one_2"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_sorting_tabs_1"}}
-{{> components/emthemes-modez/sections/section section="banner_one_3"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_sorting_tabs_2"}}
-{{> components/emthemes-modez/sections/section section="banner_one_4"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_sorting_tabs_3"}}
-{{> components/emthemes-modez/sections/section section="banner_one_5"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_sorting_tabs_4"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_sorting_tabs_5"}}
-{{> components/emthemes-modez/sections/section section="products_by_category_sorting_tabs_6"}}
+{{> components/emthemes-modez/sections/section section="products_by_category_subcategories_tabs_1"}}
+{{> components/emthemes-modez/sections/section section="banners_game_platform_1"}}
+{{> components/emthemes-modez/sections/section section="banners_game_platform_2"}}
+{{> components/emthemes-modez/sections/section section="products_by_category_columns_1"}}
 {{> components/emthemes-modez/sections/section section="images_carousel"}}
 ```
 
@@ -612,9 +547,6 @@ __Section supported:__
 - `featured_products`                         : Show featured products. Screenshot: http://prntscr.com/elevep
 - `popular_products`                          : Show popular products. Screenshot: http://prntscr.com/elevk2
 - `new_products`                              : Show new products. Screenshot: http://prntscr.com/elevqg
-- `special_products_tabs`                     : Show products tabs contain featured, popular, new products
-- `categories_grid`                           : Show product categories
-- `blog_recent`                               : Show recent posts
 - `banner_one_1`                              : Show 1st full width banner. Screenshot: http://prntscr.com/elevyw
 - `banner_one_2`                              : Show 2nd full width banner
 - `banner_one_3`                              : Show 3rd full width banner
@@ -635,17 +567,13 @@ __Section supported:__
 - `banner_3x_3`                               : Show 3rd 3 1/3 banners
 - `banner_3x_4`                               : Show 4th 3 1/3 banners
 - `banner_3x_5`                               : Show 5th 3 1/3 banners
-- `products_by_category_sorting_tabs_1`       : Show 1st products by a category with sorting tabs (featured, bestselling, new, top reviewed). Screenshot: http://prntscr.com/elewh4
-- `products_by_category_sorting_tabs_2`       : Show 2nd products by a category with sorting tabs (featured, bestselling, new, top reviewed)
-- `products_by_category_sorting_tabs_3`       : Show 3rd products by a category with sorting tabs (featured, bestselling, new, top reviewed)
-- `products_by_category_sorting_tabs_4`       : Show 4th products by a category with sorting tabs (featured, bestselling, new, top reviewed)
-- `products_by_category_sorting_tabs_5`       : Show 5th products by a category with sorting tabs (featured, bestselling, new, top reviewed)
-- `products_by_category_sorting_tabs_6`       : Show 6th products by a category with sorting tabs (featured, bestselling, new, top reviewed)
 - `products_by_category_subcategories_tabs_1` : Show 1st products by a categories with subcategories tabs
 - `products_by_category_subcategories_tabs_2` : Show 2nd products by a categories with subcategories tabs
 - `products_by_category_subcategories_tabs_3` : Show 3rd products by a categories with subcategories tabs
+- `products_by_category_columns_1`            : Show 1st products by a categories in columns
+- `products_by_category_columns_2`            : Show 2nd products by a categories in columns
+- `products_by_category_columns_3`            : Show 3rd products by a categories in columns
 - `images_carousel`                           : Show images carousel. Screenshot: http://prntscr.com/elewn3
-- `brands_carousel`                           : Show brands carousel
 
 
 You can add or delete any section you want, rerrange by move each line up or down.
