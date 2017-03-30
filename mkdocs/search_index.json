@@ -1,432 +1,432 @@
 {
     "docs": [
         {
-            "location": "/", 
+            "location": "/index.html", 
             "text": "User Guide - BigCommerce Theme Gameworld\n\n\nTheme Version: 0.1.0 (2017-03-23)\n\n\nTheme designed and developed by \npapathemes\n \n\n\nUser Guide Contents\n\n\n\n\nInstall the theme\n\n\nQuick Start Guide\n\n\nCustomization\n\n\nTheme Settings\n\n\nHelp \n Support", 
             "title": "Home"
         }, 
         {
-            "location": "/#user-guide-bigcommerce-theme-gameworld", 
+            "location": "/index.html#user-guide-bigcommerce-theme-gameworld", 
             "text": "Theme Version: 0.1.0 (2017-03-23)  Theme designed and developed by  papathemes", 
             "title": "User Guide - BigCommerce Theme Gameworld"
         }, 
         {
-            "location": "/#user-guide-contents", 
+            "location": "/index.html#user-guide-contents", 
             "text": "Install the theme  Quick Start Guide  Customization  Theme Settings  Help   Support", 
             "title": "User Guide Contents"
         }, 
         {
-            "location": "/installation/", 
+            "location": "/installation/index.html", 
             "text": "Theme Installation\n\n\n\n\nLogin to your BigCommerce store's admin page. \n\n\nGo to \nStorefront Design\n \n \nMy Themes\n. \n\n\nClick button \nUpload Theme\n. On the popup, click button \nSelect theme from your computer\n. \n\n\nChoose the zip file \nGameworld-x.x.x.zip\n to start installing the theme.\n\n\nWaiting for the uploading completed.\n\n\n\n\nWhen a new theme appears, click on the button \nApply Theme\n as showing below:\n\n\n\n\nThen choose a style you want to use:\n\n\n\n\nRefresh your store's front page you should see the theme installed successfully.", 
             "title": "Install the theme"
         }, 
         {
-            "location": "/installation/#theme-installation", 
+            "location": "/installation/index.html#theme-installation", 
             "text": "Login to your BigCommerce store's admin page.   Go to  Storefront Design     My Themes .   Click button  Upload Theme . On the popup, click button  Select theme from your computer .   Choose the zip file  Gameworld-x.x.x.zip  to start installing the theme.  Waiting for the uploading completed.   When a new theme appears, click on the button  Apply Theme  as showing below:   Then choose a style you want to use:   Refresh your store's front page you should see the theme installed successfully.", 
             "title": "Theme Installation"
         }, 
         {
-            "location": "/quickstart/", 
+            "location": "/quickstart/index.html", 
             "text": "Quick Start Guide\n\n\nTheme is customizable and editable via:\n\n\n\n\nTheme Editor\n\n\nTemplate files\n\n\nLanguage files\n\n\n\n\nTheme Editor\n\n\nThis theme provides a powerful Theme Editor with many options let you change styles, colors, fonts and more.\n\n\nTo access the Theme Editor, go to your admin page \n \nStorefront Design\n \n \nMy Themes\n, on the Current Theme section, click \nCustomize\n button:\n\n\n\n\nSee the complete guide of Theme Editor in chapter \nTheme Settings\n.\n\n\nEdit language file\n\n\nLanguage files contains hard-coded static text, images and other links, which can be edited and translated to any languages.\n\n\nTo edit the language file, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nAdvanced\n \n \nEdit Theme Files\n of the current theme:\n\n\n\n\nFrom the left navigation, click to edit the language file (e.i \nen.json\n):\n\n\n\n\nEdit template files\n\n\nEdit template files is \nnot recommended\n, unless you have HTML, CSS and Sass programming skills.\n\n\nYou can edit the HTML files, SCSS files, images. However remember to \nbackup your changed files\n as they are overwritten when you upgrade the theme.\n\n\nTo edit the template files, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nAdvanced\n \n \nEdit Theme Files\n of the current theme:\n\n\n\n\n\n\nAll HTML files are in directory \ntemplates\n.\n\n\nAll Sass files are in directory \nassets / scss\n.\n\n\nImages are placed in directory \nassets / img\n.\n\n\n\n\nActivate a theme style\n\n\nTo activate a theme style, open Theme Editor, find \nStyles\n section, click on the theme variation's thumbnail to activate corresponding style.\n\n\n\n\nGlossy\n\n\n\n\nFlat", 
             "title": "Quick Start Guide"
         }, 
         {
-            "location": "/quickstart/#quick-start-guide", 
+            "location": "/quickstart/index.html#quick-start-guide", 
             "text": "Theme is customizable and editable via:   Theme Editor  Template files  Language files", 
             "title": "Quick Start Guide"
         }, 
         {
-            "location": "/quickstart/#theme-editor", 
+            "location": "/quickstart/index.html#theme-editor", 
             "text": "This theme provides a powerful Theme Editor with many options let you change styles, colors, fonts and more.  To access the Theme Editor, go to your admin page    Storefront Design     My Themes , on the Current Theme section, click  Customize  button:   See the complete guide of Theme Editor in chapter  Theme Settings .", 
             "title": "Theme Editor"
         }, 
         {
-            "location": "/quickstart/#edit-language-file", 
+            "location": "/quickstart/index.html#edit-language-file", 
             "text": "Language files contains hard-coded static text, images and other links, which can be edited and translated to any languages.  To edit the language file, go to admin page    Storefront Design     My Themes , click button  Advanced     Edit Theme Files  of the current theme:   From the left navigation, click to edit the language file (e.i  en.json ):", 
             "title": "Edit language file"
         }, 
         {
-            "location": "/quickstart/#edit-template-files", 
+            "location": "/quickstart/index.html#edit-template-files", 
             "text": "Edit template files is  not recommended , unless you have HTML, CSS and Sass programming skills.  You can edit the HTML files, SCSS files, images. However remember to  backup your changed files  as they are overwritten when you upgrade the theme.  To edit the template files, go to admin page    Storefront Design     My Themes , click button  Advanced     Edit Theme Files  of the current theme:    All HTML files are in directory  templates .  All Sass files are in directory  assets / scss .  Images are placed in directory  assets / img .", 
             "title": "Edit template files"
         }, 
         {
-            "location": "/quickstart/#activate-a-theme-style", 
+            "location": "/quickstart/index.html#activate-a-theme-style", 
             "text": "To activate a theme style, open Theme Editor, find  Styles  section, click on the theme variation's thumbnail to activate corresponding style.", 
             "title": "Activate a theme style"
         }, 
         {
-            "location": "/quickstart/#glossy", 
+            "location": "/quickstart/index.html#glossy", 
             "text": "", 
             "title": "Glossy"
         }, 
         {
-            "location": "/quickstart/#flat", 
+            "location": "/quickstart/index.html#flat", 
             "text": "", 
             "title": "Flat"
         }, 
         {
-            "location": "/customization/", 
+            "location": "/customization/index.html", 
             "text": "Customization\n\n\nThis page will explain all configuration available and how to edit each section appear on theme. Let's view the first homepage.\n\n\n\n\nTop Banner\n\n\n\n\nThe top banner can be showed / edited in admin page \n \nMarketing\n \n \nBanners\n. When you add / edit remember to choose \nLocation\n is \nTop of Page\n.\n\n\nColors Customization\n\n\nTo customize colors of this section, go to admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nCustomize\n of the current theme to open the Theme Editor. \n\n\n\n\nLook into the options showing below:\n\n\n\n\nHeader\n\n\nHeader Styles\n\n\nThis theme support 2 different header styles:\n- Logo at left\n- Logo at right\n\n\n\n\n\n\n\n\nTo configure, open the \nTheme Editor\n, scroll down to section \nLogo\n, click to expand the logo options. Choose a certain option of \nLogo position\n, then click \nRefresh\n button appear after.\n\n\n\n\nEdit top header text\n\n\n\n\nEdit content in the language file, from admin page \n \nStorefront Design\n \n \nMy Themes\n, click button \nAdvanced\n \n \nEdit Theme Files\n of the current theme:\n\n\n\n\nFrom the left navigation, click to edit the language file (e.i \nen.json\n):\n\n\n\n\nEdit the text as figured above.\n\n\nColors Customization\n\n\nTo customize colors of the header section, look into the options showing below in the Theme Editor:\n\n\n\n\nMain Slideshow / Carousel\n\n\n\n\nEdit the slideshow\n\n\nEdit the slideshow in admin page \n \nStorefront Design\n \n \nDesign Options\n:\n\n\n\n\nColors Customization\n\n\nTo customize color of the slideshow's elements, look into section \nCarousel\n in the Theme Editor:\n\n\n\n\nHide the slideshow\n\n\nTo hide the slideshow on homepage, uncheck on the checkbox \nShow Carousel\n in section \nCarousel\n of the Theme Editor.\n\n\nEdit custom links\n\n\n\n\nFor editing these links, edit the language file \nen.json\n, find keys \nemthemesmodez\n \n \nhome_carousel_links\n:\n\n\n\n\n\n\nheading*\n: is the heading text. Live this value a single space character if you want to hide this link.\n\n\ntext*\n: is the sub-heading text.\n\n\nurl*\n: is the link URL.\n\n\n\n\nProducts display on the main slideshow\n\n\n\n\nBy default, products displaying on the main carousel are \nfeatured products\n. It is easy to change to \nnew products\n or \nbestselling products\n or even hide it completely.\n\n\nEdit the template file \ntemplates/components/carousel.html\n the file editor:\n\n\n\n\nTo display \nnew products\n, change the text \nproducts.featured\n to \nproducts.new\n.\n\n\nTo display \nbestselling products\n, change the text \nproducts.featured\n to \nproducts.top\n.\n\n\nIf you don't want to display these products. Just delete the code:\n\n\ndiv class=\nemthemesModez-heroCarousel-product\n\n    {{#each ../products.featured}}\n        {{#if @index '==' @../index}}\n            {{\ncomponents/products/list-item \n                show_rating=../../../settings.show_product_rating\n                theme_settings=../../../theme_settings \n                customer=../../../customer}}\n        {{/if}}\n    {{/each}}\n\n/div\n\n\n\n\n\nProducts by Categories Tabs\n\n\n\n\nThis section lets you show products by category, Each tab is a sub-category, tab content contains products in corresponding sub-categories. It show products immediately when click on a tab without leaving page.\n\n\nYou can show up to 3 sections of this section type. You can show root category or any sub-category as well.\n\n\nConfigure Category ID and Text\n\n\nTo edit category ID and text, edit the the language file \nen.json\n, find keys \nemthemesmodez\n \n \nproducts_by_category_subcategories_tabs\n:\n\n\n\n\n\n\nheading\n: is the main heading if specific category is root category.\n\n\nview_all\n: is 'view all' link label.\n\n\ncategory_1\n, \ncategory_2\n, \ncategory_3\n: is category ID of section instance 1st, 2nd and 3rd. You can display up to 3 instances of this section. Value \n0\n specifies category is root category.\n\n\n\n\nColors Customization\n\n\nYou can customize colors in Theme Editor, \nHomepage\n section as showing below:\n\n\n\n\nProducts by Categories Columns\n\n\n\n\nThis section let you show products in a specific category in each column. You can show this sections up to 3 times with different categories.\n\n\nConfigure Category IDs and sorting order\n\n\nTo specify categories, edit the language file \nen.json\n, find keys \nemthemesmodez\n \n \nproducts_by_category_columns\n, there are 3 groups \ninstance1\n, \ninstance2\n, \ninstance3\n represent 3 sections can display:\n\n\n\n\n\n\ncategory_1\n, \ncategory_2\n, \ncategory_3\n: is category ID of products in column 1, 2, 3.\n\n\nsort_by\n: is products sorting order. Supports value \nnewest\n, \nfeatured\n, \nbestselling\n.\n\n\n\n\nColors Customization\n\n\nYou can customize colors in Theme Editor, \nHomepage\n section as showing below:\n\n\n\n\nNew / Featured / Popular Products\n\n\nThe theme supports 4 layout type of \nNew Products\n, \nFeatured Products\n and \nPopular Products\n blocks:\n\n\nGrid\n:\n\n\n\n\nCarousel\n:\n\n\n\n\nConfigure a Layout Type of products block \n Number of Products to show up\n\n\nIn the \nTheme Editor\n \n \nHomepage\n, look into \nNew Products\n section (or \nFeatured Products\n, \nMost Popular Products\n):\n\n\n\n\nDisplay type\n: Choose appropriate layout type (\nGrid\n, \nCarousel\n).\n\n\nNumber of Products\n: Choose number of products to show up.\n\n\n\n\n\n\nShow/Hide Quickview button\n\n\nWhen hover on a product item, Quickview button is showed up by default. To disable this feature, uncheck the checkbox \nShow Quickview\n in the \nTheme Editor\n \n \nProducts\n section.\n\n\n\n\nChange colors and image sizes\n\n\nIn the \nTheme Editor\n \n \nProducts\n section, Look into the color options below \nProduct cards\n, \nProduct Sale Badges\n, \nProduct cards (Quick search)\n and \nImage sizes\n's options.\n\n\n\n\n\n\n\n\n\n\nChange the heading text\n\n\nTo change the heading text (New Products, Featured Products, Most Popular Products), edit the language file, look for the key \nproducts\n \n \nnew\n or \nfeatured\n or \ntop\n.\n\n\n\n\nImage Banners\n\n\nTheme supports many banner styles:\n\n\nBanners Game Platform 1\n\n\n\n\nTo edit these banners, edit the language file \nen.json\n, find keys \nemthemesmodez\n \n \nbanners\n \n \ngame_platform_1\n:\n\n\n\n\nIf you require complex customization, just edit template file \ntemplates/components/emthemes-modez/banners/game-platform1.html\n.\n\n\nBanners Game Platform 2\n\n\n\n\n\n\nIf you require complex customization, just edit template file \ntemplates/components/emthemes-modez/banners/game-platform2.html\n.\n\n\nFullwidth Banner\n\n\n\n\nSupport displaying up to 5 fullwidth banners on homepage.\n\n\nTo edit these banners, edit the language file \nen.json\n, find keys \nemthemesmodez\n \n \nbanners\n \n \none_1\n to \none_5\n represent 5 fullwidth banners accordingly.\n\n\n\n\n\n\ntitle\n: is banner title text. Leave a single space character to hide it.\n\n\ntext\n: is description text. Leave a single space character to hide it.\n\n\nbutton\n: is button text. Leave a single space character to hide it.\n\n\nimage\n: is banner image URL.\n\n\nurl\n: is banner link.\n\n\n\n\n2 Half Banners\n\n\n\n\nSupport displaying up to 5 half-size banners on homepage.\n\n\nTo edit these banners, edit the language file \nen.json\n, find keys \nemthemesmodez\n \n \nbanners\n \n \nhalf_1\n to \nhalf_5\n represent 5 fullwidth banners accordingly.\n\n\n\n\n2/3 \n 1/3 Banners\n\n\n\n\nSupport displaying up to 5 half-size banners on homepage.\n\n\nTo edit these banners, edit the language file \nen.json\n, find keys \nemthemesmodez\n \n \nbanners\n \n \ntwothird_onethird_1\n to \ntwothird_onethird_5\n represent 5 fullwidth banners accordingly.\n\n\n\n\n3 Banners\n\n\n\n\nSupport displaying up to 5 half-size banners on homepage.\n\n\nTo edit these banners, edit the language file \nen.json\n, find keys \nemthemesmodez\n \n \nbanners\n \n \nonethird_x3_1\n to \nonethird_x3_5\n represent 5 fullwidth banners accordingly.\n\n\n\n\nImage Carousel\n\n\n\n\nTo edit image and links in this image carousel section, edit the language file, find key \nemthemesmodez\n \n \nimage_carousel\n\n\n\n\n\n\nimage*\n: is link to the image.\n\n\ntitle*\n: is image text description.\n\n\nurl*\n: is image link. Leave a single space letter in the value if you want to hide any image.\n\n\n\n\nFooter - Recent Blog Posts\n\n\n\n\nThis block show the most recent blog posts.\n\n\nCustomize heading text and other text\n\n\nTo change the heading text, read more text and date format, edit the language file. Find the key \nblog\n \n \nrecent_posts\n, \nposted_by\n and \nread_more\n, edit its values as you want.\n\n\n\n\nShow/Hide \n Configure number of posts\n\n\nTo show/hide or configure number of posts to display, open \nTheme Editor\n \n \nFooter\n section \n select value of \nShow recent blog\n.\n\n\nFooter - Custom Links\n\n\n\n\nTo edit text and links in this footer section, edit the language file, find keys \nfooter\n, 4 keys \nlinks_col_1\n, \nlinks_col_2\n, \nlinks_col_3\n, \nlinks_col_4\n represent 4 link columns:\n\n\n\n\n\n\nheading\n: is heading title in each column.\n\n\ntitle\n: is link label. Leave a single space character to hide this link.\n\n\nurl\n: is link URL.\n\n\n\n\nYou can show or hide any custom links group in \nTheme Editor\n \n \nFooter\n section:\n\n\n\n\nFooter - Page Links\n\n\n\n\nThis section will show all our page links. To change the heading text \nNavigate\n, edit the language file \nen.json\n, find key \nfooter\n \n \nnavigate\n, change this key value:\n\n\n\n\nYou can configure to show or hide, number of page links to show in \nTheme Editor\n \n \nFooter\n section:\n\n\n\n\nFooter - Category Links\n\n\n\n\nEdit heading text \nCategories\n in the language file \nen.json\n, find key \nfooter\n \n \ncategories\n:\n\n\n\n\nYou can configure to show or hide, number of categories to show in \nTheme Editor\n \n \nFooter\n section:\n\n\n\n\nFooter - Contact Info\n\n\n\n\nEdit heading text \nContact Info\n in the language file \nen.json\n, find key \nfooter\n \n \ninfo\n:\n\n\n\n\n\n\ncall_us\n: is the translation text for phone calling number.\n\n\nemail\n: is email to display.\n\n\n\n\nAddress can be edited in admin page \n \nStore Setup\n \n \nStore Profile\n \n \nStore Address\n.\n\n\nYou can configure to show or hide this section in \nTheme Editor\n \n \nFooter\n section:\n\n\n\n\nFooter - Newsletter\n\n\n\n\nEdit text\n\n\nTo edit text in newsletter form, edit the language file \nen.json\n, find key \nnewsletter\n, edit text in this section:\n\n\n\n\nSocial media icons\n\n\nDrag and drop social media icons you want to display in admin page \n \nStorefront Design\n \n \nDesign Options\n:\n\n\n\n\nShow/Hide\n\n\nYou can configure to show or hide this section in \nTheme Editor\n \n \nFooter\n section:\n\n\n\n\nFooter - Location\n\n\n\n\nEdit heading text \nContact Info\n and the image in the language file \nen.json\n, find key \nfooter\n, change value of \nlocation\n and \nlocation_image\n:\n\n\n\n\nYou can configure to show or hide this section in \nTheme Editor\n \n \nFooter\n section:\n\n\n\n\nFooter - Popular Brands\n\n\n\n\nEdit heading text \nPopular Brands\n in the language file \nen.json\n, find key \nfooter\n \n \nbrands\n:\n\n\n\n\nYou can configure to show or hide this section in \nTheme Editor\n \n \nFooter\n section:\n\n\n\n\nFooter - Payment Icons\n\n\n\n\nTo show/hide payment icons, go to Theme \nEditor\n \n \nPayment Icons\n secitons, check or uncheck any icons you want to show or hide.\n\n\nFooter - Credit Links\n\n\n\n\nTo show/hide the credit links, go to Theme Editor \n \nFooter\n section, tick or untick the checkboxes as showing above.\n\n\nEdit homepage template\n\n\nThis advanced topic will instruct you how to edit homepage template to customize your homepage, add more sections, delete or rearrange other sections.\n\n\nTo edit the homepage template, open \nEdit Theme Files\n, find and open file \ntemplates\n \n \npages\n \n \nhome.html\n:\n\n\n\n\nLook at the code in \nhome.html\n:\n\n\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_subcategories_tabs_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanners_game_platform_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nbanners_game_platform_2\n}}\n{{\n components/emthemes-modez/sections/section section=\nproducts_by_category_columns_1\n}}\n{{\n components/emthemes-modez/sections/section section=\nimages_carousel\n}}\n\n\n\n\neach line represents a section appear on homepage. \n\n\nSection supported:\n\n\n\n\nfeatured_products\n                         : Show featured products. Screenshot: http://prntscr.com/elevep\n\n\npopular_products\n                          : Show popular products. Screenshot: http://prntscr.com/elevk2\n\n\nnew_products\n                              : Show new products. Screenshot: http://prntscr.com/elevqg\n\n\nbanner_one_1\n                              : Show 1st full width banner. Screenshot: http://prntscr.com/elevyw\n\n\nbanner_one_2\n                              : Show 2nd full width banner\n\n\nbanner_one_3\n                              : Show 3rd full width banner\n\n\nbanner_one_4\n                              : Show 4th full width banner\n\n\nbanner_one_5\n                              : Show 5th full width banner\n\n\nbanner_half_1\n                             : Show 1st 2 half banners\n\n\nbanner_half_2\n                             : Show 2nd 2 half banners\n\n\nbanner_half_3\n                             : Show 3rd 2 half banners\n\n\nbanner_half_4\n                             : Show 4th 2 half banners\n\n\nbanner_half_5\n                             : Show 5th 2 half banners\n\n\nbanner_2313_1\n                             : Show 1st 2/3 + 1/3 banners\n\n\nbanner_2313_2\n                             : Show 2nd 2/3 + 1/3 banners\n\n\nbanner_2313_3\n                             : Show 3rd 2/3 + 1/3 banners\n\n\nbanner_2313_4\n                             : Show 4th 2/3 + 1/3 banners\n\n\nbanner_2313_5\n                             : Show 5th 2/3 + 1/3 banners\n\n\nbanner_3x_1\n                               : Show 1st 3 1/3 banners\n\n\nbanner_3x_2\n                               : Show 2nd 3 1/3 banners\n\n\nbanner_3x_3\n                               : Show 3rd 3 1/3 banners\n\n\nbanner_3x_4\n                               : Show 4th 3 1/3 banners\n\n\nbanner_3x_5\n                               : Show 5th 3 1/3 banners\n\n\nproducts_by_category_subcategories_tabs_1\n : Show 1st products by a categories with subcategories tabs\n\n\nproducts_by_category_subcategories_tabs_2\n : Show 2nd products by a categories with subcategories tabs\n\n\nproducts_by_category_subcategories_tabs_3\n : Show 3rd products by a categories with subcategories tabs\n\n\nproducts_by_category_columns_1\n            : Show 1st products by a categories in columns\n\n\nproducts_by_category_columns_2\n            : Show 2nd products by a categories in columns\n\n\nproducts_by_category_columns_3\n            : Show 3rd products by a categories in columns\n\n\nimages_carousel\n                           : Show images carousel. Screenshot: http://prntscr.com/elewn3\n\n\n\n\nYou can add or delete any section you want, rerrange by move each line up or down.\n\n\nEdit footer template\n\n\nIf you want more control about the footer, you can edit the footer template at \ntemplates\n \n \ncomponents\n \n \ncommon\n \n \nfooter.html\n:", 
             "title": "Customization"
         }, 
         {
-            "location": "/customization/#customization", 
+            "location": "/customization/index.html#customization", 
             "text": "This page will explain all configuration available and how to edit each section appear on theme. Let's view the first homepage.", 
             "title": "Customization"
         }, 
         {
-            "location": "/customization/#top-banner", 
+            "location": "/customization/index.html#top-banner", 
             "text": "The top banner can be showed / edited in admin page    Marketing     Banners . When you add / edit remember to choose  Location  is  Top of Page .", 
             "title": "Top Banner"
         }, 
         {
-            "location": "/customization/#colors-customization", 
+            "location": "/customization/index.html#colors-customization", 
             "text": "To customize colors of this section, go to admin page    Storefront Design     My Themes , click button  Customize  of the current theme to open the Theme Editor.    Look into the options showing below:", 
             "title": "Colors Customization"
         }, 
         {
-            "location": "/customization/#header", 
+            "location": "/customization/index.html#header", 
             "text": "", 
             "title": "Header"
         }, 
         {
-            "location": "/customization/#header-styles", 
+            "location": "/customization/index.html#header-styles", 
             "text": "This theme support 2 different header styles:\n- Logo at left\n- Logo at right     To configure, open the  Theme Editor , scroll down to section  Logo , click to expand the logo options. Choose a certain option of  Logo position , then click  Refresh  button appear after.", 
             "title": "Header Styles"
         }, 
         {
-            "location": "/customization/#edit-top-header-text", 
+            "location": "/customization/index.html#edit-top-header-text", 
             "text": "Edit content in the language file, from admin page    Storefront Design     My Themes , click button  Advanced     Edit Theme Files  of the current theme:   From the left navigation, click to edit the language file (e.i  en.json ):   Edit the text as figured above.", 
             "title": "Edit top header text"
         }, 
         {
-            "location": "/customization/#colors-customization_1", 
+            "location": "/customization/index.html#colors-customization_1", 
             "text": "To customize colors of the header section, look into the options showing below in the Theme Editor:", 
             "title": "Colors Customization"
         }, 
         {
-            "location": "/customization/#main-slideshow-carousel", 
+            "location": "/customization/index.html#main-slideshow-carousel", 
             "text": "", 
             "title": "Main Slideshow / Carousel"
         }, 
         {
-            "location": "/customization/#edit-the-slideshow", 
+            "location": "/customization/index.html#edit-the-slideshow", 
             "text": "Edit the slideshow in admin page    Storefront Design     Design Options :", 
             "title": "Edit the slideshow"
         }, 
         {
-            "location": "/customization/#colors-customization_2", 
+            "location": "/customization/index.html#colors-customization_2", 
             "text": "To customize color of the slideshow's elements, look into section  Carousel  in the Theme Editor:", 
             "title": "Colors Customization"
         }, 
         {
-            "location": "/customization/#hide-the-slideshow", 
+            "location": "/customization/index.html#hide-the-slideshow", 
             "text": "To hide the slideshow on homepage, uncheck on the checkbox  Show Carousel  in section  Carousel  of the Theme Editor.", 
             "title": "Hide the slideshow"
         }, 
         {
-            "location": "/customization/#edit-custom-links", 
+            "location": "/customization/index.html#edit-custom-links", 
             "text": "For editing these links, edit the language file  en.json , find keys  emthemesmodez     home_carousel_links :    heading* : is the heading text. Live this value a single space character if you want to hide this link.  text* : is the sub-heading text.  url* : is the link URL.", 
             "title": "Edit custom links"
         }, 
         {
-            "location": "/customization/#products-display-on-the-main-slideshow", 
+            "location": "/customization/index.html#products-display-on-the-main-slideshow", 
             "text": "By default, products displaying on the main carousel are  featured products . It is easy to change to  new products  or  bestselling products  or even hide it completely.  Edit the template file  templates/components/carousel.html  the file editor:   To display  new products , change the text  products.featured  to  products.new .  To display  bestselling products , change the text  products.featured  to  products.top .  If you don't want to display these products. Just delete the code:  div class= emthemesModez-heroCarousel-product \n    {{#each ../products.featured}}\n        {{#if @index '==' @../index}}\n            {{ components/products/list-item \n                show_rating=../../../settings.show_product_rating\n                theme_settings=../../../theme_settings \n                customer=../../../customer}}\n        {{/if}}\n    {{/each}} /div", 
             "title": "Products display on the main slideshow"
         }, 
         {
-            "location": "/customization/#products-by-categories-tabs", 
+            "location": "/customization/index.html#products-by-categories-tabs", 
             "text": "This section lets you show products by category, Each tab is a sub-category, tab content contains products in corresponding sub-categories. It show products immediately when click on a tab without leaving page.  You can show up to 3 sections of this section type. You can show root category or any sub-category as well.", 
             "title": "Products by Categories Tabs"
         }, 
         {
-            "location": "/customization/#configure-category-id-and-text", 
+            "location": "/customization/index.html#configure-category-id-and-text", 
             "text": "To edit category ID and text, edit the the language file  en.json , find keys  emthemesmodez     products_by_category_subcategories_tabs :    heading : is the main heading if specific category is root category.  view_all : is 'view all' link label.  category_1 ,  category_2 ,  category_3 : is category ID of section instance 1st, 2nd and 3rd. You can display up to 3 instances of this section. Value  0  specifies category is root category.", 
             "title": "Configure Category ID and Text"
         }, 
         {
-            "location": "/customization/#colors-customization_3", 
+            "location": "/customization/index.html#colors-customization_3", 
             "text": "You can customize colors in Theme Editor,  Homepage  section as showing below:", 
             "title": "Colors Customization"
         }, 
         {
-            "location": "/customization/#products-by-categories-columns", 
+            "location": "/customization/index.html#products-by-categories-columns", 
             "text": "This section let you show products in a specific category in each column. You can show this sections up to 3 times with different categories.", 
             "title": "Products by Categories Columns"
         }, 
         {
-            "location": "/customization/#configure-category-ids-and-sorting-order", 
+            "location": "/customization/index.html#configure-category-ids-and-sorting-order", 
             "text": "To specify categories, edit the language file  en.json , find keys  emthemesmodez     products_by_category_columns , there are 3 groups  instance1 ,  instance2 ,  instance3  represent 3 sections can display:    category_1 ,  category_2 ,  category_3 : is category ID of products in column 1, 2, 3.  sort_by : is products sorting order. Supports value  newest ,  featured ,  bestselling .", 
             "title": "Configure Category IDs and sorting order"
         }, 
         {
-            "location": "/customization/#colors-customization_4", 
+            "location": "/customization/index.html#colors-customization_4", 
             "text": "You can customize colors in Theme Editor,  Homepage  section as showing below:", 
             "title": "Colors Customization"
         }, 
         {
-            "location": "/customization/#new-featured-popular-products", 
+            "location": "/customization/index.html#new-featured-popular-products", 
             "text": "The theme supports 4 layout type of  New Products ,  Featured Products  and  Popular Products  blocks:  Grid :   Carousel :", 
             "title": "New / Featured / Popular Products"
         }, 
         {
-            "location": "/customization/#configure-a-layout-type-of-products-block-number-of-products-to-show-up", 
+            "location": "/customization/index.html#configure-a-layout-type-of-products-block-number-of-products-to-show-up", 
             "text": "In the  Theme Editor     Homepage , look into  New Products  section (or  Featured Products ,  Most Popular Products ):   Display type : Choose appropriate layout type ( Grid ,  Carousel ).  Number of Products : Choose number of products to show up.", 
             "title": "Configure a Layout Type of products block &amp; Number of Products to show up"
         }, 
         {
-            "location": "/customization/#showhide-quickview-button", 
+            "location": "/customization/index.html#showhide-quickview-button", 
             "text": "When hover on a product item, Quickview button is showed up by default. To disable this feature, uncheck the checkbox  Show Quickview  in the  Theme Editor     Products  section.", 
             "title": "Show/Hide Quickview button"
         }, 
         {
-            "location": "/customization/#change-colors-and-image-sizes", 
+            "location": "/customization/index.html#change-colors-and-image-sizes", 
             "text": "In the  Theme Editor     Products  section, Look into the color options below  Product cards ,  Product Sale Badges ,  Product cards (Quick search)  and  Image sizes 's options.", 
             "title": "Change colors and image sizes"
         }, 
         {
-            "location": "/customization/#change-the-heading-text", 
+            "location": "/customization/index.html#change-the-heading-text", 
             "text": "To change the heading text (New Products, Featured Products, Most Popular Products), edit the language file, look for the key  products     new  or  featured  or  top .", 
             "title": "Change the heading text"
         }, 
         {
-            "location": "/customization/#image-banners", 
+            "location": "/customization/index.html#image-banners", 
             "text": "Theme supports many banner styles:", 
             "title": "Image Banners"
         }, 
         {
-            "location": "/customization/#banners-game-platform-1", 
+            "location": "/customization/index.html#banners-game-platform-1", 
             "text": "To edit these banners, edit the language file  en.json , find keys  emthemesmodez     banners     game_platform_1 :   If you require complex customization, just edit template file  templates/components/emthemes-modez/banners/game-platform1.html .", 
             "title": "Banners Game Platform 1"
         }, 
         {
-            "location": "/customization/#banners-game-platform-2", 
+            "location": "/customization/index.html#banners-game-platform-2", 
             "text": "If you require complex customization, just edit template file  templates/components/emthemes-modez/banners/game-platform2.html .", 
             "title": "Banners Game Platform 2"
         }, 
         {
-            "location": "/customization/#fullwidth-banner", 
+            "location": "/customization/index.html#fullwidth-banner", 
             "text": "Support displaying up to 5 fullwidth banners on homepage.  To edit these banners, edit the language file  en.json , find keys  emthemesmodez     banners     one_1  to  one_5  represent 5 fullwidth banners accordingly.    title : is banner title text. Leave a single space character to hide it.  text : is description text. Leave a single space character to hide it.  button : is button text. Leave a single space character to hide it.  image : is banner image URL.  url : is banner link.", 
             "title": "Fullwidth Banner"
         }, 
         {
-            "location": "/customization/#2-half-banners", 
+            "location": "/customization/index.html#2-half-banners", 
             "text": "Support displaying up to 5 half-size banners on homepage.  To edit these banners, edit the language file  en.json , find keys  emthemesmodez     banners     half_1  to  half_5  represent 5 fullwidth banners accordingly.", 
             "title": "2 Half Banners"
         }, 
         {
-            "location": "/customization/#23-13-banners", 
+            "location": "/customization/index.html#23-13-banners", 
             "text": "Support displaying up to 5 half-size banners on homepage.  To edit these banners, edit the language file  en.json , find keys  emthemesmodez     banners     twothird_onethird_1  to  twothird_onethird_5  represent 5 fullwidth banners accordingly.", 
             "title": "2/3 &amp; 1/3 Banners"
         }, 
         {
-            "location": "/customization/#3-banners", 
+            "location": "/customization/index.html#3-banners", 
             "text": "Support displaying up to 5 half-size banners on homepage.  To edit these banners, edit the language file  en.json , find keys  emthemesmodez     banners     onethird_x3_1  to  onethird_x3_5  represent 5 fullwidth banners accordingly.", 
             "title": "3 Banners"
         }, 
         {
-            "location": "/customization/#image-carousel", 
+            "location": "/customization/index.html#image-carousel", 
             "text": "To edit image and links in this image carousel section, edit the language file, find key  emthemesmodez     image_carousel    image* : is link to the image.  title* : is image text description.  url* : is image link. Leave a single space letter in the value if you want to hide any image.", 
             "title": "Image Carousel"
         }, 
         {
-            "location": "/customization/#footer-recent-blog-posts", 
+            "location": "/customization/index.html#footer-recent-blog-posts", 
             "text": "This block show the most recent blog posts.", 
             "title": "Footer - Recent Blog Posts"
         }, 
         {
-            "location": "/customization/#customize-heading-text-and-other-text", 
+            "location": "/customization/index.html#customize-heading-text-and-other-text", 
             "text": "To change the heading text, read more text and date format, edit the language file. Find the key  blog     recent_posts ,  posted_by  and  read_more , edit its values as you want.", 
             "title": "Customize heading text and other text"
         }, 
         {
-            "location": "/customization/#showhide-configure-number-of-posts", 
+            "location": "/customization/index.html#showhide-configure-number-of-posts", 
             "text": "To show/hide or configure number of posts to display, open  Theme Editor     Footer  section   select value of  Show recent blog .", 
             "title": "Show/Hide &amp; Configure number of posts"
         }, 
         {
-            "location": "/customization/#footer-custom-links", 
+            "location": "/customization/index.html#footer-custom-links", 
             "text": "To edit text and links in this footer section, edit the language file, find keys  footer , 4 keys  links_col_1 ,  links_col_2 ,  links_col_3 ,  links_col_4  represent 4 link columns:    heading : is heading title in each column.  title : is link label. Leave a single space character to hide this link.  url : is link URL.   You can show or hide any custom links group in  Theme Editor     Footer  section:", 
             "title": "Footer - Custom Links"
         }, 
         {
-            "location": "/customization/#footer-page-links", 
+            "location": "/customization/index.html#footer-page-links", 
             "text": "This section will show all our page links. To change the heading text  Navigate , edit the language file  en.json , find key  footer     navigate , change this key value:   You can configure to show or hide, number of page links to show in  Theme Editor     Footer  section:", 
             "title": "Footer - Page Links"
         }, 
         {
-            "location": "/customization/#footer-category-links", 
+            "location": "/customization/index.html#footer-category-links", 
             "text": "Edit heading text  Categories  in the language file  en.json , find key  footer     categories :   You can configure to show or hide, number of categories to show in  Theme Editor     Footer  section:", 
             "title": "Footer - Category Links"
         }, 
         {
-            "location": "/customization/#footer-contact-info", 
+            "location": "/customization/index.html#footer-contact-info", 
             "text": "Edit heading text  Contact Info  in the language file  en.json , find key  footer     info :    call_us : is the translation text for phone calling number.  email : is email to display.   Address can be edited in admin page    Store Setup     Store Profile     Store Address .  You can configure to show or hide this section in  Theme Editor     Footer  section:", 
             "title": "Footer - Contact Info"
         }, 
         {
-            "location": "/customization/#footer-newsletter", 
+            "location": "/customization/index.html#footer-newsletter", 
             "text": "", 
             "title": "Footer - Newsletter"
         }, 
         {
-            "location": "/customization/#edit-text", 
+            "location": "/customization/index.html#edit-text", 
             "text": "To edit text in newsletter form, edit the language file  en.json , find key  newsletter , edit text in this section:", 
             "title": "Edit text"
         }, 
         {
-            "location": "/customization/#social-media-icons", 
+            "location": "/customization/index.html#social-media-icons", 
             "text": "Drag and drop social media icons you want to display in admin page    Storefront Design     Design Options :", 
             "title": "Social media icons"
         }, 
         {
-            "location": "/customization/#showhide", 
+            "location": "/customization/index.html#showhide", 
             "text": "You can configure to show or hide this section in  Theme Editor     Footer  section:", 
             "title": "Show/Hide"
         }, 
         {
-            "location": "/customization/#footer-location", 
+            "location": "/customization/index.html#footer-location", 
             "text": "Edit heading text  Contact Info  and the image in the language file  en.json , find key  footer , change value of  location  and  location_image :   You can configure to show or hide this section in  Theme Editor     Footer  section:", 
             "title": "Footer - Location"
         }, 
         {
-            "location": "/customization/#footer-popular-brands", 
+            "location": "/customization/index.html#footer-popular-brands", 
             "text": "Edit heading text  Popular Brands  in the language file  en.json , find key  footer     brands :   You can configure to show or hide this section in  Theme Editor     Footer  section:", 
             "title": "Footer - Popular Brands"
         }, 
         {
-            "location": "/customization/#footer-payment-icons", 
+            "location": "/customization/index.html#footer-payment-icons", 
             "text": "To show/hide payment icons, go to Theme  Editor     Payment Icons  secitons, check or uncheck any icons you want to show or hide.", 
             "title": "Footer - Payment Icons"
         }, 
         {
-            "location": "/customization/#footer-credit-links", 
+            "location": "/customization/index.html#footer-credit-links", 
             "text": "To show/hide the credit links, go to Theme Editor    Footer  section, tick or untick the checkboxes as showing above.", 
             "title": "Footer - Credit Links"
         }, 
         {
-            "location": "/customization/#edit-homepage-template", 
+            "location": "/customization/index.html#edit-homepage-template", 
             "text": "This advanced topic will instruct you how to edit homepage template to customize your homepage, add more sections, delete or rearrange other sections.  To edit the homepage template, open  Edit Theme Files , find and open file  templates     pages     home.html :   Look at the code in  home.html :  {{  components/emthemes-modez/sections/section section= products_by_category_subcategories_tabs_1 }}\n{{  components/emthemes-modez/sections/section section= banners_game_platform_1 }}\n{{  components/emthemes-modez/sections/section section= banners_game_platform_2 }}\n{{  components/emthemes-modez/sections/section section= products_by_category_columns_1 }}\n{{  components/emthemes-modez/sections/section section= images_carousel }}  each line represents a section appear on homepage.   Section supported:   featured_products                          : Show featured products. Screenshot: http://prntscr.com/elevep  popular_products                           : Show popular products. Screenshot: http://prntscr.com/elevk2  new_products                               : Show new products. Screenshot: http://prntscr.com/elevqg  banner_one_1                               : Show 1st full width banner. Screenshot: http://prntscr.com/elevyw  banner_one_2                               : Show 2nd full width banner  banner_one_3                               : Show 3rd full width banner  banner_one_4                               : Show 4th full width banner  banner_one_5                               : Show 5th full width banner  banner_half_1                              : Show 1st 2 half banners  banner_half_2                              : Show 2nd 2 half banners  banner_half_3                              : Show 3rd 2 half banners  banner_half_4                              : Show 4th 2 half banners  banner_half_5                              : Show 5th 2 half banners  banner_2313_1                              : Show 1st 2/3 + 1/3 banners  banner_2313_2                              : Show 2nd 2/3 + 1/3 banners  banner_2313_3                              : Show 3rd 2/3 + 1/3 banners  banner_2313_4                              : Show 4th 2/3 + 1/3 banners  banner_2313_5                              : Show 5th 2/3 + 1/3 banners  banner_3x_1                                : Show 1st 3 1/3 banners  banner_3x_2                                : Show 2nd 3 1/3 banners  banner_3x_3                                : Show 3rd 3 1/3 banners  banner_3x_4                                : Show 4th 3 1/3 banners  banner_3x_5                                : Show 5th 3 1/3 banners  products_by_category_subcategories_tabs_1  : Show 1st products by a categories with subcategories tabs  products_by_category_subcategories_tabs_2  : Show 2nd products by a categories with subcategories tabs  products_by_category_subcategories_tabs_3  : Show 3rd products by a categories with subcategories tabs  products_by_category_columns_1             : Show 1st products by a categories in columns  products_by_category_columns_2             : Show 2nd products by a categories in columns  products_by_category_columns_3             : Show 3rd products by a categories in columns  images_carousel                            : Show images carousel. Screenshot: http://prntscr.com/elewn3   You can add or delete any section you want, rerrange by move each line up or down.", 
             "title": "Edit homepage template"
         }, 
         {
-            "location": "/customization/#edit-footer-template", 
+            "location": "/customization/index.html#edit-footer-template", 
             "text": "If you want more control about the footer, you can edit the footer template at  templates     components     common     footer.html :", 
             "title": "Edit footer template"
         }, 
         {
-            "location": "/settings/", 
+            "location": "/settings/index.html", 
             "text": "Theme Settings\n\n\nTheme Settings or Theme Editor is a graphical user interface, lets you configure all features which the theme supports.\n\n\nTo open Theme Editor, go to your admin page \n \nStorefront Design\n \n \nMy Themes\n, on the Current Theme section, click \nCustomize\n button:\n\n\n\n\nStyles\n\n\nThis section shows all the theme's variations. You can change other style here.\n\n\n\n\nGlobal\n\n\nThis section lets you change colors of common elements, load indicator and overlays.\n\n\n\n\n\n\nTypography \n Icons\n\n\nThis section lets you change fonts, font sizes, colors of the logo, body text, headings, links, icons, ratings and other common elements.\n\n\n\n\n\n\n\n\n\n\nButtons\n\n\nThis section lets you change colors of buttons.\n\n\n\n\n\n\n\n\nForms\n\n\nThis section lets you change colors, borders, background of the form elements like labels, input boxes, select boxes, checkbox and radios.\n\n\n\n\n\n\nTop Banner\n\n\nThis section lets you change colors of the top banner and the bottom banner.\n\n\n\n\nHeader\n\n\n\n\nThis section let you configure colors of the elements showing on the page header.\n\n\nShow/Hide page links on the Main Menu.\n\n\n\n\n\n\nLogo\n\n\nThis section lets you configure logo position and size.\n\n\n\n\nCarousel\n\n\nThis configuration allow you:\n\n\n\n\nShow/hide the main slideshow on homepage.\n\n\nOn/off allowing image to stretch on large screens.\n\n\nChange colors of all carousel's elements.\n\n\nChange position of the main slideshow's description box to left, right or center.\n\n\n\n\n\n\nPayment Icons\n\n\nThis section lets you toggle payment icons to show/hide on the footer.\n\n\n\n\nSocial Media Icons\n\n\nThis section lets you configure position of the social icons on footer or header.\n\n\n\n\nProducts\n\n\nThis configuration section lets you:\n\n\n\n\nShow/Hide Quickview button.\n\n\nConfigure number of products, reviews, brands, search results showing.\n\n\nConfigure product image sizes\n\n\nConfigure Product swatch image sizes.\n\n\nConfigure position and colors of Product Badges.\n\n\nConfigure colors of elements of products grid items.\n\n\n\n\n\n\nBlog\n\n\nThis section lets you configure blog post image sizes.\n\n\n\n\nFooter\n\n\nThis configuration let you:\n\n\n\n\nShow/Hide \"Powered By...\" text at the footer.\n\n\nShow/Hide copyright text.\n\n\nChange colors of the footer background, newsletter section, copyright section.\n\n\nShow/Hide GeoTrust SSL seal and configure seal size.\n\n\n\n\n\n\nPurchase Options\n\n\n\n\nHomepage\n\n\nThis section let you configure the homepage:\n\n\n\n\nShow/hide any content blocks and product blocks.\n\n\nRearrange position of any blocks.\n\n\nConfigure display type of New, Featured, Popular Products blog.\n\n\nNumber of products to show on each block.", 
             "title": "Theme Settings"
         }, 
         {
-            "location": "/settings/#theme-settings", 
+            "location": "/settings/index.html#theme-settings", 
             "text": "Theme Settings or Theme Editor is a graphical user interface, lets you configure all features which the theme supports.  To open Theme Editor, go to your admin page    Storefront Design     My Themes , on the Current Theme section, click  Customize  button:", 
             "title": "Theme Settings"
         }, 
         {
-            "location": "/settings/#styles", 
+            "location": "/settings/index.html#styles", 
             "text": "This section shows all the theme's variations. You can change other style here.", 
             "title": "Styles"
         }, 
         {
-            "location": "/settings/#global", 
+            "location": "/settings/index.html#global", 
             "text": "This section lets you change colors of common elements, load indicator and overlays.", 
             "title": "Global"
         }, 
         {
-            "location": "/settings/#typography-icons", 
+            "location": "/settings/index.html#typography-icons", 
             "text": "This section lets you change fonts, font sizes, colors of the logo, body text, headings, links, icons, ratings and other common elements.", 
             "title": "Typography &amp; Icons"
         }, 
         {
-            "location": "/settings/#buttons", 
+            "location": "/settings/index.html#buttons", 
             "text": "This section lets you change colors of buttons.", 
             "title": "Buttons"
         }, 
         {
-            "location": "/settings/#forms", 
+            "location": "/settings/index.html#forms", 
             "text": "This section lets you change colors, borders, background of the form elements like labels, input boxes, select boxes, checkbox and radios.", 
             "title": "Forms"
         }, 
         {
-            "location": "/settings/#top-banner", 
+            "location": "/settings/index.html#top-banner", 
             "text": "This section lets you change colors of the top banner and the bottom banner.", 
             "title": "Top Banner"
         }, 
         {
-            "location": "/settings/#header", 
+            "location": "/settings/index.html#header", 
             "text": "This section let you configure colors of the elements showing on the page header.  Show/Hide page links on the Main Menu.", 
             "title": "Header"
         }, 
         {
-            "location": "/settings/#logo", 
+            "location": "/settings/index.html#logo", 
             "text": "This section lets you configure logo position and size.", 
             "title": "Logo"
         }, 
         {
-            "location": "/settings/#carousel", 
+            "location": "/settings/index.html#carousel", 
             "text": "This configuration allow you:   Show/hide the main slideshow on homepage.  On/off allowing image to stretch on large screens.  Change colors of all carousel's elements.  Change position of the main slideshow's description box to left, right or center.", 
             "title": "Carousel"
         }, 
         {
-            "location": "/settings/#payment-icons", 
+            "location": "/settings/index.html#payment-icons", 
             "text": "This section lets you toggle payment icons to show/hide on the footer.", 
             "title": "Payment Icons"
         }, 
         {
-            "location": "/settings/#social-media-icons", 
+            "location": "/settings/index.html#social-media-icons", 
             "text": "This section lets you configure position of the social icons on footer or header.", 
             "title": "Social Media Icons"
         }, 
         {
-            "location": "/settings/#products", 
+            "location": "/settings/index.html#products", 
             "text": "This configuration section lets you:   Show/Hide Quickview button.  Configure number of products, reviews, brands, search results showing.  Configure product image sizes  Configure Product swatch image sizes.  Configure position and colors of Product Badges.  Configure colors of elements of products grid items.", 
             "title": "Products"
         }, 
         {
-            "location": "/settings/#blog", 
+            "location": "/settings/index.html#blog", 
             "text": "This section lets you configure blog post image sizes.", 
             "title": "Blog"
         }, 
         {
-            "location": "/settings/#footer", 
+            "location": "/settings/index.html#footer", 
             "text": "This configuration let you:   Show/Hide \"Powered By...\" text at the footer.  Show/Hide copyright text.  Change colors of the footer background, newsletter section, copyright section.  Show/Hide GeoTrust SSL seal and configure seal size.", 
             "title": "Footer"
         }, 
         {
-            "location": "/settings/#purchase-options", 
+            "location": "/settings/index.html#purchase-options", 
             "text": "", 
             "title": "Purchase Options"
         }, 
         {
-            "location": "/settings/#homepage", 
+            "location": "/settings/index.html#homepage", 
             "text": "This section let you configure the homepage:   Show/hide any content blocks and product blocks.  Rearrange position of any blocks.  Configure display type of New, Featured, Popular Products blog.  Number of products to show on each block.", 
             "title": "Homepage"
         }, 
         {
-            "location": "/support/", 
+            "location": "/support/index.html", 
             "text": "Help \n Support\n\n\nIf you have any problem, don't hesistate to contact us via email \n.\n\n\nOur working hours: Monday to Friday 8AM - 5PM GMT+8.\n\n\nWhat do we support and do not support?\n\n\nWe Do Support:\n\n\n\n\nProvide detailed documentation to help you install and configure the theme successfully by yourself.\n\n\nAnswer your enquiries about theme configuration and use.\n\n\nAnswer you how to edit and translate the language files.\n\n\nFix bugs of our themes ONLY if the source code are not modified.\n\n\n\n\nWe Do Not Support:\n\n\n\n\nAnswer you how to use BigCommerce, manage, edit or configure any built-in BigCommerce features which are not related to our themes. Please contact \nBigCommerce Support\n for help.\n\n\nUpgrading the theme on your store if the source code was modified by any reasons.\n\n\nEditing the theme's source code for your own requirements which the theme's current version is not supported. Except editing language files.\n\n\n\n\nNote: \nWe have right to answer or not answer you how to edit the theme's source code.", 
             "title": "Help & Support"
         }, 
         {
-            "location": "/support/#help-support", 
+            "location": "/support/index.html#help-support", 
             "text": "If you have any problem, don't hesistate to contact us via email  .  Our working hours: Monday to Friday 8AM - 5PM GMT+8.", 
             "title": "Help &amp; Support"
         }, 
         {
-            "location": "/support/#what-do-we-support-and-do-not-support", 
+            "location": "/support/index.html#what-do-we-support-and-do-not-support", 
             "text": "", 
             "title": "What do we support and do not support?"
         }, 
         {
-            "location": "/support/#we-do-support", 
+            "location": "/support/index.html#we-do-support", 
             "text": "Provide detailed documentation to help you install and configure the theme successfully by yourself.  Answer your enquiries about theme configuration and use.  Answer you how to edit and translate the language files.  Fix bugs of our themes ONLY if the source code are not modified.", 
             "title": "We Do Support:"
         }, 
         {
-            "location": "/support/#we-do-not-support", 
+            "location": "/support/index.html#we-do-not-support", 
             "text": "Answer you how to use BigCommerce, manage, edit or configure any built-in BigCommerce features which are not related to our themes. Please contact  BigCommerce Support  for help.  Upgrading the theme on your store if the source code was modified by any reasons.  Editing the theme's source code for your own requirements which the theme's current version is not supported. Except editing language files.   Note:  We have right to answer or not answer you how to edit the theme's source code.", 
             "title": "We Do Not Support:"
         }
